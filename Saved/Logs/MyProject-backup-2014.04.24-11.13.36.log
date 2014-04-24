@@ -1,0 +1,2067 @@
+Log file open, 04/23/14 16:24:58
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.0.1-0+UE4
+LogInit: Compiled (64-bit): Apr  3 2014 11:44:54
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/UnrealEngine-4.0.1-release/Engine/Binaries/Win64/
+[2014.04.23-13.24.58:954][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.04.23-13.24.58:984][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.04.23-13.24.58:994][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.04.23-13.24.59:004][  0]LogInit: Object subsystem initialized
+[2014.04.23-13.24.59:006][  0]LogInit: Selected Device Profile: [Windows]
+[2014.04.23-13.24.59:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.04.23-13.24.59:015][  0]LogInit: Computer: BOSHCHUKV
+[2014.04.23-13.24.59:015][  0]LogInit: User: vboshchuk
+[2014.04.23-13.24.59:017][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.04.23-13.24.59:017][  0]LogInit: High frequency timer resolution =3.215356 MHz
+[2014.04.23-13.24.59:017][  0]LogInit: Memory total: Physical=15.9GB (16GB approx) Pagefile=8176.1GB Virtual=8192.0GB
+[2014.04.23-13.24.59:036][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.04.23-13.24.59:036][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[2014.04.23-13.24.59:038][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.04.23-13.24.59:038][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[2014.04.23-13.24.59:051][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.04.23-13.24.59:053][  0]LogD3D11RHI: Async texture creation enabled
+[2014.04.23-13.24.59:127][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-13.24.59:154][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.04.23-13.24.59:188][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.04.23-13.24.59:859][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.23-13.24.59:928][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.23-13.24.59:961][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.04.23-13.25.00:000][  0]LogDerivedDataCache: Loaded boot cache 0.04s 37MB C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
+[2014.04.23-13.25.00:001][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc
+[2014.04.23-13.25.00:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.04.23-13.25.00:001][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.04.23-13.25.00:001][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.04.23-13.25.00:001][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.04.23-13.25.00:013][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.04.23-13.25.07:045][  0]LogDerivedDataCache:Warning: Fail to write to //epicgames.net/root/UE4DDC, derived data cache to this directory will be read only.
+[2014.04.23-13.25.07:045][  0]LogDerivedDataCache:Warning: Shared data cache path was not usable, will not use it.
+[2014.04.23-13.25.07:045][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.04.23-13.25.07:222][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.04.23-13.25.07:222][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.04.23-13.25.07:446][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.04.23-13.25.07:446][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.04.23-13.25.07:446][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.04.23-13.25.07:446][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.04.23-13.25.08:048][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.04.23-13.25.08:131][  0]SourceControl: Info Source control is disabled
+[2014.04.23-13.25.08:131][  0]SourceControl: Info Source control is disabled
+[2014.04.23-13.25.08:135][  0]SourceControl: Info Source control is disabled
+[2014.04.23-13.25.08:215][  0]BlueprintLog: New page: Editor Load
+[2014.04.23-13.25.08:246][  0]LogObj: 18325 objects as part of root set at end of initial load.
+[2014.04.23-13.25.08:246][  0]LogUObjectAllocator: 3624888 out of 0 bytes used by permanent object pool.
+[2014.04.23-13.25.08:426][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-13.25.08:426][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-13.25.08:426][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.23-13.25.08:427][  0]LogEngine: Initializing Engine...
+[2014.04.23-13.25.08:535][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.04.23-13.25.08:543][  0]LogInit: FAudioDevice initialized.
+[2014.04.23-13.25.08:563][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
+[2014.04.23-13.25.08:567][  0]LogInit: Texture streaming: Enabled
+[2014.04.23-13.25.08:746][  0]LogInit: Transaction tracking system initialized
+[2014.04.23-13.25.08:863][  0]LogAssetRegistry: FAssetRegistry took 0.010626 seconds to start up
+[2014.04.23-13.25.09:026][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.23-13.25.09:033][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.23-13.25.09:110][  0]LogConsoleResponse:Display: 
+[2014.04.23-13.25.09:415][  0]SourceControl: Info Source control is disabled
+[2014.04.23-13.25.09:415][  0]Cmd: MAP LOAD FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.23-13.25.09:415][  0]LightingResults: New page: Lighting Build
+[2014.04.23-13.25.09:424][  0]MapCheck: New page: Map Check
+[2014.04.23-13.25.09:425][  0]LightingResults: New page: Lighting Build
+[2014.04.23-13.25.09:746][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1975FECA0
+[2014.04.23-13.25.09:858][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.23-13.25.09:858][  0]Cmd: MAP CHECKDEP
+[2014.04.23-13.25.09:858][  0]MapCheck: New page: Minimal_Default - Apr 23, 2014, 7:25:09 PM
+[2014.04.23-13.25.09:912][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [53.123ms] ==========
+[2014.04.23-13.25.09:912][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.496
+[2014.04.23-13.25.10:014][  0]LogCollectionManager: Loaded 0 collections in 0.001132 seconds
+[2014.04.23-13.25.10:190][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.04.23-13.25.10:190][  0]Cmd: MODE PLACEMENT
+[2014.04.23-13.25.10:278][  0]LogLoad: Full Startup: 12.28 seconds (BP compile: 0.12 seconds)
+[2014.04.23-13.25.10:293][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.04.23-13.25.10:357][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.04.23-13.25.10:525][  1]LogRenderer:Warning: Reallocating scene render targets to support 600x600.
+[2014.04.23-13.25.10:790][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>750A427E1B768A13</RequestId><HostId>HOGb5NvHf62FG43/I+JCKRcDymCWug6tXON8li1zQ1972CfgbvEP1tOs8v6Mb4gj</HostId></Error>
+[2014.04.23-13.25.10:801][  2]LogAssetRegistry: Asset discovery search completed in 1.949487 seconds
+[2014.04.23-13.25.11:077][  9]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>B0455FF76B8C6F8E</RequestId><HostId>YyVmxN94lu9vQVYTtf1o2fKu8V6w8JlJ2HNFdm3tCV5jGT+U3Buv8NSzDKz8E6XW</HostId></Error>
+[2014.04.23-13.25.11:111][ 10]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BCE3CDD75AE007FD</RequestId><HostId>3Zaw66W4Yk8mY0trC5d7Qpc166pdLsaa50XB29ytEM4p4PKo5936GCewO11ztBz4</HostId></Error>
+[2014.04.23-13.25.20:329][403]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.04.23-13.25.20:355][403]Cmd: MAP LOAD FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/MyTest.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.23-13.25.20:355][403]LightingResults: New page: Lighting Build
+[2014.04.23-13.25.20:360][403]LoadErrors: New page: Loading map: MyTest.umap
+[2014.04.23-13.25.20:360][403]MapCheck: New page: Map Check
+[2014.04.23-13.25.20:360][403]LightingResults: New page: Lighting Build
+[2014.04.23-13.25.20:381][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19289E200
+[2014.04.23-13.25.20:510][403]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'ReadyForRemoteControl' for  Ready for Remote Control 
+[2014.04.23-13.25.20:513][403]LogBlueprint:Warning: [compiler] Warning [0022.52] Compile of MyCharackter successful, but with 1 Warning(s) [in 6 ms]
+[2014.04.23-13.25.20:519][403]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'ReadyForRemoteControl' for  Ready for Remote Control 
+[2014.04.23-13.25.20:523][403]LogBlueprint:Warning: [compiler] Warning [0022.53] Compile of MyCharackter successful, but with 1 Warning(s) [in 8 ms]
+[2014.04.23-13.25.20:760][403]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.23-13.25.20:832][403]Cmd: MAP CHECKDEP
+[2014.04.23-13.25.20:832][403]MapCheck: New page: MyTest - Apr 23, 2014, 7:25:20 PM
+[2014.04.23-13.25.20:877][403]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [45.388ms] ==========
+[2014.04.23-13.25.20:877][403]LogFileHelpers: Loading map 'MyTest' took 0.523
+[2014.04.23-13.35.21:261][871]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.04.23-13.35.21:671][871]LogSavePackage: Save=267.888855ms
+[2014.04.23-13.35.21:671][871]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto181436F384AE9E0F42D816C8D4820CFC9.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto1.umap'
+[2014.04.23-13.35.21:680][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.421
+[2014.04.23-13.35.21:680][871]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.421
+[2014.04.23-13.36.10:724][804]BlueprintLog: New page: Compile Untitled
+[2014.04.23-13.36.11:011][804]BlueprintEditorCompileResults: Info [0672.77] Compile of Untitled successful! [in 21 ms]
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:311][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.39.47:312][987]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.40.59:549][667]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.40.59:549][667]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.40.59:549][667]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.40.59:550][667]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.45.22:391][220]LogSavePackage: Save=264.625427ms
+[2014.04.23-13.45.22:391][220]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto2F421728A43CE5AE2C794E69261F0321D.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto2.umap'
+[2014.04.23-13.45.22:400][220]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.426
+[2014.04.23-13.45.22:400][220]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.426
+[2014.04.23-13.55.23:398][199]LogSavePackage: Save=601.033630ms
+[2014.04.23-13.55.23:398][199]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto343D00E394EE03E0EBE3D0A8394A63040.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto3.umap'
+[2014.04.23-13.55.23:414][199]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.849
+[2014.04.23-13.55.23:414][199]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.849
+[2014.04.23-13.56.32:434][322]LogSavePackage: Save=230.282745ms
+[2014.04.23-13.56.32:434][322]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest9E44E009417C240ED0F1D6A4A6D2D6BF.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/MyTest.umap'
+[2014.04.23-13.56.32:474][322]LogFileHelpers: Saving map 'MyTest' took 0.405
+[2014.04.23-13.57.06:074][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.57.06:074][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.57.06:074][558]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.02:427][348]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.02:427][348]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.58.10:637][621]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-13.59.07:956][585]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.23-14.00.12:458][642]BlueprintLog: New page: Compile Untitled
+[2014.04.23-14.00.12:719][642]BlueprintEditorCompileResults: Info [2114.51] Compile of Untitled successful! [in 24 ms]
+[2014.04.23-14.00.15:304][717]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.23-14.00.15:369][717]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.04.23-14.00.15:608][717]LogPlayLevel: PIE:  Blueprint regeneration took 304 ms (1 blueprints)
+[2014.04.23-14.00.15:608][717]PIE: New page: PIE session: MyTest (Apr 23, 2014, 8:00:15 PM)
+[2014.04.23-14.00.15:617][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008986s)
+[2014.04.23-14.00.15:618][717]LogPlayLevel: PIE: World Init took: (0.000970s)
+[2014.04.23-14.00.15:618][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyTest.MyTest to /Game/Maps/UEDPIE_0_MyTest.MyTest (0.010221s)
+[2014.04.23-14.00.15:618][717]LogWorld: Game class is 'AntiGameMode_C'
+[2014.04.23-14.00.15:666][717]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyTest.MyTest up for play (max tick rate 0) at 2014.04.23-17.00.15
+[2014.04.23-14.00.15:667][717]LogWorld: Bringing up level for play took: 0.002092
+[2014.04.23-14.00.15:668][717]LogPlayerController: ClientRestart_Implementation MyCharackter_C_0
+[2014.04.23-14.00.15:668][717]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharackter_C_0
+[2014.04.23-14.00.15:670][717]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyTest 1.061
+[2014.04.23-14.00.17:857][784]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.17:885][785]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.17:913][786]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.17:943][787]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.17:971][788]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.17:998][789]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:029][790]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:058][791]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:087][792]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:114][793]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:141][794]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:170][795]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:204][796]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:234][797]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:262][798]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:287][799]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:318][800]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:344][801]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:375][802]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:405][803]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:438][804]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:473][805]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:500][806]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:528][807]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:557][808]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:584][809]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:611][810]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:638][811]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:668][812]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:696][813]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:726][814]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:756][815]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:786][816]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:815][817]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:847][818]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:878][819]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:910][820]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:937][821]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:968][822]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.18:997][823]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:029][824]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:062][825]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:094][826]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:122][827]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:152][828]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:180][829]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:208][830]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:237][831]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:267][832]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:296][833]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:328][834]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:358][835]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:388][836]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:416][837]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:445][838]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:474][839]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:503][840]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:535][841]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:564][842]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:592][843]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:622][844]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:647][845]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:677][846]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:708][847]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:735][848]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:765][849]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:794][850]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:824][851]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:824][851]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:852][852]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:853][852]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:880][853]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:880][853]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:906][854]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:907][854]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:937][855]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:937][855]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:963][856]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:963][856]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.19:990][857]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.19:990][857]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:019][858]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:019][858]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:050][859]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:050][859]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:086][860]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:086][860]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:112][861]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:112][861]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:143][862]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:143][862]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:172][863]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:173][863]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:202][864]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:202][864]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:230][865]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:230][865]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:258][866]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:258][866]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:288][867]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:288][867]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:318][868]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:318][868]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:346][869]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:346][869]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:376][870]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:376][870]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:406][871]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:406][871]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:434][872]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:434][872]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:464][873]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:464][873]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:494][874]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:494][874]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:523][875]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:523][875]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:552][876]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:552][876]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:581][877]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:581][877]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:607][878]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:607][878]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:638][879]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:638][879]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:667][880]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:667][880]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:697][881]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:697][881]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:729][882]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:729][882]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:759][883]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:759][883]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:791][884]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:791][884]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:821][885]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:821][885]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:847][886]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:847][886]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:877][887]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:877][887]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:908][888]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:908][888]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:938][889]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:938][889]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:967][890]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:967][890]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.20:993][891]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.20:993][891]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:025][892]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:025][892]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:052][893]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:052][893]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:085][894]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:086][894]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:114][895]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:114][895]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:145][896]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:145][896]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:173][897]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:174][897]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:201][898]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:202][898]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:235][899]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:235][899]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:262][900]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:262][900]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:297][901]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:298][901]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:329][902]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:330][902]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:357][903]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:357][903]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:387][904]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:387][904]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:414][905]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:414][905]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:443][906]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:443][906]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:473][907]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:474][907]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:504][908]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:504][908]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:530][909]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:530][909]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:561][910]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:561][910]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:594][911]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:594][911]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:622][912]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:623][912]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:650][913]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:651][913]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:678][914]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:678][914]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:708][915]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:709][915]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:737][916]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:737][916]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:764][917]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:765][917]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:796][918]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:796][918]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:826][919]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:826][919]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:854][920]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:854][920]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:883][921]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:883][921]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:916][922]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:916][922]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:944][923]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:944][923]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.21:973][924]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.21:974][924]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:000][925]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:000][925]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:029][926]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:029][926]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:060][927]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:061][927]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:090][928]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:090][928]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:120][929]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:120][929]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:148][930]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:148][930]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:181][931]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:181][931]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:208][932]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:208][932]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:236][933]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:236][933]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:264][934]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:265][934]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:293][935]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:294][935]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:324][936]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:325][936]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:353][937]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:354][937]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:383][938]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:384][938]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:411][939]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:411][939]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:440][940]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:440][940]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:469][941]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:469][941]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:498][942]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:499][942]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:529][943]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:529][943]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:559][944]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:559][944]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:590][945]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:590][945]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:619][946]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:619][946]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:645][947]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:646][947]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:676][948]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:677][948]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:704][949]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:704][949]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:732][950]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:732][950]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:760][951]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:760][951]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:791][952]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:791][952]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:820][953]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:820][953]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:849][954]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:850][954]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:879][955]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:880][955]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:912][956]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:912][956]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:941][957]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:941][957]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:969][958]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:969][958]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.22:998][959]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.22:998][959]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:028][960]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:028][960]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:056][961]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:057][961]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:084][962]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:084][962]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:112][963]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:113][963]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:144][964]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:144][964]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:175][965]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:175][965]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:203][966]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:203][966]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:230][967]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:230][967]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:259][968]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:259][968]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:288][969]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:289][969]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:320][970]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:320][970]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:350][971]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:350][971]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:380][972]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:380][972]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:409][973]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:410][973]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:436][974]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:437][974]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:465][975]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:466][975]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:494][976]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:495][976]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:523][977]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:523][977]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:552][978]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:552][978]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:582][979]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:582][979]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:611][980]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:612][980]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:641][981]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:641][981]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:669][982]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:670][982]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:700][983]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:700][983]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:731][984]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:731][984]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:762][985]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:762][985]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:792][986]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:792][986]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:823][987]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:823][987]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:851][988]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:851][988]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:881][989]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:882][989]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:911][990]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:912][990]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:939][991]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:940][991]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:969][992]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:969][992]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.23:997][993]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.23:997][993]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:028][994]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:028][994]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:054][995]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:054][995]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:084][996]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:084][996]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:111][997]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:111][997]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:141][998]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:142][998]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:172][999]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:172][999]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:198][  0]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:198][  0]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:232][  1]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:232][  1]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:257][  2]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:258][  2]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:288][  3]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:288][  3]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:317][  4]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:317][  4]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:346][  5]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:346][  5]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:376][  6]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:376][  6]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:405][  7]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:405][  7]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:436][  8]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:436][  8]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:465][  9]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:466][  9]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:496][ 10]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:496][ 10]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:523][ 11]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:524][ 11]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:553][ 12]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:554][ 12]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:583][ 13]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:583][ 13]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:612][ 14]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:612][ 14]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:644][ 15]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:644][ 15]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:675][ 16]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:676][ 16]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:703][ 17]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:703][ 17]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:734][ 18]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:734][ 18]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:762][ 19]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:762][ 19]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:794][ 20]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:794][ 20]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:823][ 21]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:824][ 21]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:852][ 22]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:852][ 22]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:883][ 23]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:883][ 23]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:913][ 24]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:914][ 24]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:943][ 25]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:943][ 25]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.24:971][ 26]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.24:971][ 26]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:001][ 27]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:001][ 27]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:032][ 28]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:033][ 28]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:065][ 29]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:065][ 29]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:092][ 30]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:093][ 30]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:121][ 31]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:121][ 31]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:151][ 32]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:151][ 32]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:183][ 33]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:183][ 33]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:213][ 34]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:213][ 34]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:242][ 35]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:243][ 35]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:272][ 36]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:272][ 36]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:301][ 37]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:301][ 37]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:334][ 38]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:334][ 38]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:365][ 39]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:365][ 39]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:396][ 40]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:396][ 40]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:426][ 41]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:427][ 41]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:456][ 42]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:456][ 42]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:485][ 43]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:485][ 43]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:511][ 44]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:512][ 44]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:541][ 45]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:541][ 45]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:571][ 46]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:571][ 46]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:600][ 47]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:601][ 47]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:629][ 48]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:629][ 48]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:659][ 49]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:659][ 49]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:687][ 50]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:687][ 50]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:716][ 51]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:716][ 51]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:744][ 52]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:744][ 52]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:775][ 53]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:775][ 53]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:805][ 54]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:805][ 54]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:832][ 55]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:833][ 55]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:862][ 56]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:862][ 56]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:892][ 57]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:892][ 57]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:919][ 58]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:919][ 58]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:947][ 59]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:947][ 59]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.25:976][ 60]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.25:976][ 60]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:006][ 61]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:007][ 61]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:034][ 62]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:035][ 62]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:063][ 63]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:064][ 63]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:091][ 64]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:091][ 64]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:118][ 65]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:118][ 65]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:146][ 66]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:146][ 66]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:175][ 67]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:175][ 67]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:204][ 68]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:204][ 68]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:232][ 69]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:233][ 69]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:262][ 70]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:262][ 70]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:291][ 71]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:291][ 71]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:321][ 72]LogBlueprintUserMessages: X=0.000 Y=0.000 Z=50.150
+[2014.04.23-14.00.26:321][ 72]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.00.26:483][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A194966D40
+[2014.04.23-14.01.53:289][221]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.23-14.01.53:355][221]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.04.23-14.01.53:621][221]LogPlayLevel: PIE:  Blueprint regeneration took 332 ms (1 blueprints)
+[2014.04.23-14.01.53:621][221]PIE: New page: PIE session: MyTest (Apr 23, 2014, 8:01:53 PM)
+[2014.04.23-14.01.53:635][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013414s)
+[2014.04.23-14.01.53:636][221]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2014.04.23-14.01.53:636][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyTest.MyTest to /Game/Maps/UEDPIE_0_MyTest.MyTest (0.014417s)
+[2014.04.23-14.01.53:636][221]LogWorld: Game class is 'AntiGameMode_C'
+[2014.04.23-14.01.53:668][221]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyTest.MyTest up for play (max tick rate 0) at 2014.04.23-17.01.53
+[2014.04.23-14.01.53:668][221]LogWorld: Bringing up level for play took: 0.001831
+[2014.04.23-14.01.53:669][221]LogPlayerController: ClientRestart_Implementation MyCharackter_C_1
+[2014.04.23-14.01.53:669][221]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharackter_C_1
+[2014.04.23-14.01.53:671][221]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyTest 1.063
+[2014.04.23-14.01.54:801][252]LogBlueprintUserMessages: 3.941882
+[2014.04.23-14.01.54:833][253]LogBlueprintUserMessages: 6.87291
+[2014.04.23-14.01.54:866][254]LogBlueprintUserMessages: 10.128599
+[2014.04.23-14.01.54:895][255]LogBlueprintUserMessages: 13.151219
+[2014.04.23-14.01.54:923][256]LogBlueprintUserMessages: 16.265463
+[2014.04.23-14.01.54:952][257]LogBlueprintUserMessages: 19.054764
+[2014.04.23-14.01.54:979][258]LogBlueprintUserMessages: 22.006567
+[2014.04.23-14.01.55:007][259]LogBlueprintUserMessages: 24.735907
+[2014.04.23-14.01.55:036][260]LogBlueprintUserMessages: 27.460052
+[2014.04.23-14.01.55:065][261]LogBlueprintUserMessages: 30.416615
+[2014.04.23-14.01.55:094][262]LogBlueprintUserMessages: 33.340397
+[2014.04.23-14.01.55:123][263]LogBlueprintUserMessages: 36.211212
+[2014.04.23-14.01.55:151][264]LogBlueprintUserMessages: 39.075935
+[2014.04.23-14.01.55:180][265]LogBlueprintUserMessages: 41.93338
+[2014.04.23-14.01.55:211][266]LogBlueprintUserMessages: 44.777172
+[2014.04.23-14.01.55:238][267]LogBlueprintUserMessages: 47.879379
+[2014.04.23-14.01.55:268][268]LogBlueprintUserMessages: 50.652603
+[2014.04.23-14.01.55:299][269]LogBlueprintUserMessages: 53.661537
+[2014.04.23-14.01.55:327][270]LogBlueprintUserMessages: 56.727978
+[2014.04.23-14.01.55:356][271]LogBlueprintUserMessages: 59.544525
+[2014.04.23-14.01.55:387][272]LogBlueprintUserMessages: 62.408905
+[2014.04.23-14.01.55:418][273]LogBlueprintUserMessages: 65.566254
+[2014.04.23-14.01.55:446][274]LogBlueprintUserMessages: 68.594444
+[2014.04.23-14.01.55:476][275]LogBlueprintUserMessages: 71.461029
+[2014.04.23-14.01.55:506][276]LogBlueprintUserMessages: 74.465515
+[2014.04.23-14.01.55:534][277]LogBlueprintUserMessages: 77.432869
+[2014.04.23-14.01.55:565][278]LogBlueprintUserMessages: 80.272987
+[2014.04.23-14.01.55:593][279]LogBlueprintUserMessages: 83.229019
+[2014.04.23-14.01.55:623][280]LogBlueprintUserMessages: 86.002892
+[2014.04.23-14.01.55:652][281]LogBlueprintUserMessages: 89.005516
+[2014.04.23-14.01.55:679][282]LogBlueprintUserMessages: 91.975449
+[2014.04.23-14.01.55:707][283]LogBlueprintUserMessages: 94.637985
+[2014.04.23-14.01.55:735][284]LogBlueprintUserMessages: 97.489304
+[2014.04.23-14.01.55:765][285]LogBlueprintUserMessages: 100.244492
+[2014.04.23-14.01.55:793][286]LogBlueprintUserMessages: 103.16964
+[2014.04.23-14.01.55:823][287]LogBlueprintUserMessages: 106.073517
+[2014.04.23-14.01.55:856][288]LogBlueprintUserMessages: 109.074364
+[2014.04.23-14.01.55:886][289]LogBlueprintUserMessages: 112.321159
+[2014.04.23-14.01.55:914][290]LogBlueprintUserMessages: 115.329445
+[2014.04.23-14.01.55:943][291]LogBlueprintUserMessages: 118.157028
+[2014.04.23-14.01.55:971][292]LogBlueprintUserMessages: 120.939301
+[2014.04.23-14.01.55:998][293]LogBlueprintUserMessages: 123.890793
+[2014.04.23-14.01.56:025][294]LogBlueprintUserMessages: 126.488297
+[2014.04.23-14.01.56:056][295]LogBlueprintUserMessages: 129.309158
+[2014.04.23-14.01.56:085][296]LogBlueprintUserMessages: 132.342789
+[2014.04.23-14.01.56:112][297]LogBlueprintUserMessages: 135.209625
+[2014.04.23-14.01.56:142][298]LogBlueprintUserMessages: 137.977844
+[2014.04.23-14.01.56:171][299]LogBlueprintUserMessages: 140.913193
+[2014.04.23-14.01.56:200][300]LogBlueprintUserMessages: 143.912338
+[2014.04.23-14.01.56:227][301]LogBlueprintUserMessages: 146.757401
+[2014.04.23-14.01.56:258][302]LogBlueprintUserMessages: 149.451599
+[2014.04.23-14.01.56:286][303]LogBlueprintUserMessages: 152.552002
+[2014.04.23-14.01.56:313][304]LogBlueprintUserMessages: 155.359406
+[2014.04.23-14.01.56:343][305]LogBlueprintUserMessages: 158.103241
+[2014.04.23-14.01.56:373][306]LogBlueprintUserMessages: 161.069382
+[2014.04.23-14.01.56:405][307]LogBlueprintUserMessages: 164.071075
+[2014.04.23-14.01.56:435][308]LogBlueprintUserMessages: 167.32605
+[2014.04.23-14.01.56:463][309]LogBlueprintUserMessages: 170.256607
+[2014.04.23-14.01.56:491][310]LogBlueprintUserMessages: 173.062698
+[2014.04.23-14.01.56:519][311]LogBlueprintUserMessages: 175.865494
+[2014.04.23-14.01.56:549][312]LogBlueprintUserMessages: 178.676346
+[2014.04.23-14.01.56:579][313]LogBlueprintUserMessages: 181.675171
+[2014.04.23-14.01.56:608][314]LogBlueprintUserMessages: 184.673721
+[2014.04.23-14.01.56:638][315]LogBlueprintUserMessages: 187.648544
+[2014.04.23-14.01.56:667][316]LogBlueprintUserMessages: 190.572571
+[2014.04.23-14.01.56:695][317]LogBlueprintUserMessages: 193.500519
+[2014.04.23-14.01.56:725][318]LogBlueprintUserMessages: 196.342163
+[2014.04.23-14.01.56:752][319]LogBlueprintUserMessages: 199.293472
+[2014.04.23-14.01.56:752][319]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:784][320]LogBlueprintUserMessages: 201.97908
+[2014.04.23-14.01.56:784][320]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:812][321]LogBlueprintUserMessages: 205.169434
+[2014.04.23-14.01.56:812][321]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:841][322]LogBlueprintUserMessages: 207.984863
+[2014.04.23-14.01.56:842][322]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:870][323]LogBlueprintUserMessages: 210.918259
+[2014.04.23-14.01.56:871][323]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:904][324]LogBlueprintUserMessages: 213.860199
+[2014.04.23-14.01.56:904][324]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:934][325]LogBlueprintUserMessages: 217.152588
+[2014.04.23-14.01.56:934][325]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:960][326]LogBlueprintUserMessages: 220.154526
+[2014.04.23-14.01.56:960][326]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.56:988][327]LogBlueprintUserMessages: 222.801819
+[2014.04.23-14.01.56:988][327]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:016][328]LogBlueprintUserMessages: 225.63562
+[2014.04.23-14.01.57:016][328]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:048][329]LogBlueprintUserMessages: 228.384308
+[2014.04.23-14.01.57:048][329]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:079][330]LogBlueprintUserMessages: 231.509216
+[2014.04.23-14.01.57:080][330]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:111][331]LogBlueprintUserMessages: 234.553925
+[2014.04.23-14.01.57:111][331]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:139][332]LogBlueprintUserMessages: 237.722122
+[2014.04.23-14.01.57:139][332]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:171][333]LogBlueprintUserMessages: 240.581802
+[2014.04.23-14.01.57:171][333]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:200][334]LogBlueprintUserMessages: 243.716019
+[2014.04.23-14.01.57:201][334]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:231][335]LogBlueprintUserMessages: 246.672424
+[2014.04.23-14.01.57:232][335]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:264][336]LogBlueprintUserMessages: 249.696594
+[2014.04.23-14.01.57:264][336]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:295][337]LogBlueprintUserMessages: 252.988892
+[2014.04.23-14.01.57:295][337]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:323][338]LogBlueprintUserMessages: 256.082153
+[2014.04.23-14.01.57:324][338]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:353][339]LogBlueprintUserMessages: 258.999329
+[2014.04.23-14.01.57:353][339]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:383][340]LogBlueprintUserMessages: 261.944336
+[2014.04.23-14.01.57:384][340]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:414][341]LogBlueprintUserMessages: 264.988007
+[2014.04.23-14.01.57:414][341]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:446][342]LogBlueprintUserMessages: 268.069092
+[2014.04.23-14.01.57:446][342]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:474][343]LogBlueprintUserMessages: 271.243256
+[2014.04.23-14.01.57:474][343]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:502][344]LogBlueprintUserMessages: 274.063995
+[2014.04.23-14.01.57:502][344]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:532][345]LogBlueprintUserMessages: 276.884277
+[2014.04.23-14.01.57:533][345]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:561][346]LogBlueprintUserMessages: 279.924042
+[2014.04.23-14.01.57:562][346]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:593][347]LogBlueprintUserMessages: 282.825928
+[2014.04.23-14.01.57:593][347]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:622][348]LogBlueprintUserMessages: 285.915955
+[2014.04.23-14.01.57:622][348]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:653][349]LogBlueprintUserMessages: 288.880371
+[2014.04.23-14.01.57:653][349]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:680][350]LogBlueprintUserMessages: 291.936676
+[2014.04.23-14.01.57:681][350]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:711][351]LogBlueprintUserMessages: 294.754211
+[2014.04.23-14.01.57:711][351]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:738][352]LogBlueprintUserMessages: 297.806213
+[2014.04.23-14.01.57:739][352]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:766][353]LogBlueprintUserMessages: 300.56604
+[2014.04.23-14.01.57:767][353]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:796][354]LogBlueprintUserMessages: 303.424927
+[2014.04.23-14.01.57:796][354]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:823][355]LogBlueprintUserMessages: 306.402405
+[2014.04.23-14.01.57:824][355]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:856][356]LogBlueprintUserMessages: 309.13385
+[2014.04.23-14.01.57:856][356]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:891][357]LogBlueprintUserMessages: 312.329987
+[2014.04.23-14.01.57:891][357]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:919][358]LogBlueprintUserMessages: 315.840973
+[2014.04.23-14.01.57:920][358]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:949][359]LogBlueprintUserMessages: 318.706879
+[2014.04.23-14.01.57:950][359]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.57:976][360]LogBlueprintUserMessages: 321.683624
+[2014.04.23-14.01.57:976][360]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:003][361]LogBlueprintUserMessages: 324.407562
+[2014.04.23-14.01.58:003][361]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:033][362]LogBlueprintUserMessages: 327.127136
+[2014.04.23-14.01.58:033][362]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:062][363]LogBlueprintUserMessages: 330.050812
+[2014.04.23-14.01.58:062][363]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:090][364]LogBlueprintUserMessages: 332.966431
+[2014.04.23-14.01.58:090][364]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:119][365]LogBlueprintUserMessages: 335.779724
+[2014.04.23-14.01.58:119][365]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:145][366]LogBlueprintUserMessages: 338.686279
+[2014.04.23-14.01.58:145][366]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:177][367]LogBlueprintUserMessages: 341.307129
+[2014.04.23-14.01.58:177][367]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:205][368]LogBlueprintUserMessages: 344.458649
+[2014.04.23-14.01.58:205][368]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:235][369]LogBlueprintUserMessages: 347.260071
+[2014.04.23-14.01.58:235][369]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:267][370]LogBlueprintUserMessages: 350.274017
+[2014.04.23-14.01.58:267][370]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:295][371]LogBlueprintUserMessages: 353.379852
+[2014.04.23-14.01.58:296][371]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:324][372]LogBlueprintUserMessages: 356.271942
+[2014.04.23-14.01.58:324][372]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:353][373]LogBlueprintUserMessages: 359.108612
+[2014.04.23-14.01.58:353][373]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:383][374]LogBlueprintUserMessages: 361.997833
+[2014.04.23-14.01.58:384][374]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:412][375]LogBlueprintUserMessages: 365.083557
+[2014.04.23-14.01.58:412][375]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:446][376]LogBlueprintUserMessages: 367.96225
+[2014.04.23-14.01.58:447][376]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:477][377]LogBlueprintUserMessages: 371.270203
+[2014.04.23-14.01.58:477][377]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:508][378]LogBlueprintUserMessages: 374.405823
+[2014.04.23-14.01.58:508][378]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:539][379]LogBlueprintUserMessages: 377.513855
+[2014.04.23-14.01.58:539][379]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:569][380]LogBlueprintUserMessages: 380.594574
+[2014.04.23-14.01.58:569][380]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:599][381]LogBlueprintUserMessages: 383.621033
+[2014.04.23-14.01.58:599][381]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:629][382]LogBlueprintUserMessages: 386.638031
+[2014.04.23-14.01.58:629][382]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:659][383]LogBlueprintUserMessages: 389.628815
+[2014.04.23-14.01.58:659][383]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:690][384]LogBlueprintUserMessages: 392.661041
+[2014.04.23-14.01.58:690][384]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:721][385]LogBlueprintUserMessages: 395.70697
+[2014.04.23-14.01.58:721][385]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:750][386]LogBlueprintUserMessages: 398.72995
+[2014.04.23-14.01.58:750][386]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:781][387]LogBlueprintUserMessages: 401.664551
+[2014.04.23-14.01.58:781][387]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:810][388]LogBlueprintUserMessages: 404.757507
+[2014.04.23-14.01.58:811][388]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:841][389]LogBlueprintUserMessages: 407.719757
+[2014.04.23-14.01.58:841][389]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:871][390]LogBlueprintUserMessages: 410.73587
+[2014.04.23-14.01.58:872][390]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:903][391]LogBlueprintUserMessages: 413.802643
+[2014.04.23-14.01.58:903][391]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:940][392]LogBlueprintUserMessages: 416.990509
+[2014.04.23-14.01.58:940][392]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.58:971][393]LogBlueprintUserMessages: 420.570007
+[2014.04.23-14.01.58:972][393]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:003][394]LogBlueprintUserMessages: 423.757324
+[2014.04.23-14.01.59:003][394]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:035][395]LogBlueprintUserMessages: 426.956055
+[2014.04.23-14.01.59:035][395]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:067][396]LogBlueprintUserMessages: 430.181
+[2014.04.23-14.01.59:067][396]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:097][397]LogBlueprintUserMessages: 433.132202
+[2014.04.23-14.01.59:097][397]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:130][398]LogBlueprintUserMessages: 436.431396
+[2014.04.23-14.01.59:130][398]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:162][399]LogBlueprintUserMessages: 439.746735
+[2014.04.23-14.01.59:163][399]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:193][400]LogBlueprintUserMessages: 443.004333
+[2014.04.23-14.01.59:193][400]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:223][401]LogBlueprintUserMessages: 446.068329
+[2014.04.23-14.01.59:224][401]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:255][402]LogBlueprintUserMessages: 449.050385
+[2014.04.23-14.01.59:255][402]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:286][403]LogBlueprintUserMessages: 452.261261
+[2014.04.23-14.01.59:286][403]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:317][404]LogBlueprintUserMessages: 455.307281
+[2014.04.23-14.01.59:318][404]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:350][405]LogBlueprintUserMessages: 458.526825
+[2014.04.23-14.01.59:350][405]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:382][406]LogBlueprintUserMessages: 461.809143
+[2014.04.23-14.01.59:383][406]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:416][407]LogBlueprintUserMessages: 465.005127
+[2014.04.23-14.01.59:416][407]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:446][408]LogBlueprintUserMessages: 468.376678
+[2014.04.23-14.01.59:447][408]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:482][409]LogBlueprintUserMessages: 471.423553
+[2014.04.23-14.01.59:483][409]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:514][410]LogBlueprintUserMessages: 474.929199
+[2014.04.23-14.01.59:514][410]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:547][411]LogBlueprintUserMessages: 478.143799
+[2014.04.23-14.01.59:547][411]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:576][412]LogBlueprintUserMessages: 481.438843
+[2014.04.23-14.01.59:576][412]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:607][413]LogBlueprintUserMessages: 484.35022
+[2014.04.23-14.01.59:607][413]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:639][414]LogBlueprintUserMessages: 487.455505
+[2014.04.23-14.01.59:639][414]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:671][415]LogBlueprintUserMessages: 490.671112
+[2014.04.23-14.01.59:671][415]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:702][416]LogBlueprintUserMessages: 493.867676
+[2014.04.23-14.01.59:702][416]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:734][417]LogBlueprintUserMessages: 496.964508
+[2014.04.23-14.01.59:734][417]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:766][418]LogBlueprintUserMessages: 500.227295
+[2014.04.23-14.01.59:767][418]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:801][419]LogBlueprintUserMessages: 503.409027
+[2014.04.23-14.01.59:801][419]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:833][420]LogBlueprintUserMessages: 506.874115
+[2014.04.23-14.01.59:834][420]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:865][421]LogBlueprintUserMessages: 509.985718
+[2014.04.23-14.01.59:866][421]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:893][422]LogBlueprintUserMessages: 513.351807
+[2014.04.23-14.01.59:893][422]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:923][423]LogBlueprintUserMessages: 516.112671
+[2014.04.23-14.01.59:923][423]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:952][424]LogBlueprintUserMessages: 519.089661
+[2014.04.23-14.01.59:953][424]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.01.59:983][425]LogBlueprintUserMessages: 522.03949
+[2014.04.23-14.01.59:984][425]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:012][426]LogBlueprintUserMessages: 525.152466
+[2014.04.23-14.02.00:012][426]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:043][427]LogBlueprintUserMessages: 527.976318
+[2014.04.23-14.02.00:043][427]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:074][428]LogBlueprintUserMessages: 531.068298
+[2014.04.23-14.02.00:074][428]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:103][429]LogBlueprintUserMessages: 534.06604
+[2014.04.23-14.02.00:103][429]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:132][430]LogBlueprintUserMessages: 536.997437
+[2014.04.23-14.02.00:132][430]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:162][431]LogBlueprintUserMessages: 539.86969
+[2014.04.23-14.02.00:163][431]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:193][432]LogBlueprintUserMessages: 542.946899
+[2014.04.23-14.02.00:193][432]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:221][433]LogBlueprintUserMessages: 546.015076
+[2014.04.23-14.02.00:221][433]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:252][434]LogBlueprintUserMessages: 548.826477
+[2014.04.23-14.02.00:252][434]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:281][435]LogBlueprintUserMessages: 551.924194
+[2014.04.23-14.02.00:281][435]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:311][436]LogBlueprintUserMessages: 554.803162
+[2014.04.23-14.02.00:312][436]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:340][437]LogBlueprintUserMessages: 557.882996
+[2014.04.23-14.02.00:340][437]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:369][438]LogBlueprintUserMessages: 560.735535
+[2014.04.23-14.02.00:369][438]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:401][439]LogBlueprintUserMessages: 563.659973
+[2014.04.23-14.02.00:401][439]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:429][440]LogBlueprintUserMessages: 566.825562
+[2014.04.23-14.02.00:429][440]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:461][441]LogBlueprintUserMessages: 569.644348
+[2014.04.23-14.02.00:461][441]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:494][442]LogBlueprintUserMessages: 572.809937
+[2014.04.23-14.02.00:494][442]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:526][443]LogBlueprintUserMessages: 576.175537
+[2014.04.23-14.02.00:526][443]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:555][444]LogBlueprintUserMessages: 579.324341
+[2014.04.23-14.02.00:556][444]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:588][445]LogBlueprintUserMessages: 582.288147
+[2014.04.23-14.02.00:588][445]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:620][446]LogBlueprintUserMessages: 585.432007
+[2014.04.23-14.02.00:620][446]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:647][447]LogBlueprintUserMessages: 588.720276
+[2014.04.23-14.02.00:647][447]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:677][448]LogBlueprintUserMessages: 591.436768
+[2014.04.23-14.02.00:677][448]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:705][449]LogBlueprintUserMessages: 594.420288
+[2014.04.23-14.02.00:705][449]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:734][450]LogBlueprintUserMessages: 597.290894
+[2014.04.23-14.02.00:734][450]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:762][451]LogBlueprintUserMessages: 600.173096
+[2014.04.23-14.02.00:762][451]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:793][452]LogBlueprintUserMessages: 602.97821
+[2014.04.23-14.02.00:793][452]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:822][453]LogBlueprintUserMessages: 606.07019
+[2014.04.23-14.02.00:822][453]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:850][454]LogBlueprintUserMessages: 609.018555
+[2014.04.23-14.02.00:850][454]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:883][455]LogBlueprintUserMessages: 611.783752
+[2014.04.23-14.02.00:883][455]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:925][456]LogBlueprintUserMessages: 615.072021
+[2014.04.23-14.02.00:925][456]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:952][457]LogBlueprintUserMessages: 619.244324
+[2014.04.23-14.02.00:953][457]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.00:982][458]LogBlueprintUserMessages: 621.998047
+[2014.04.23-14.02.00:982][458]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:009][459]LogBlueprintUserMessages: 624.929443
+[2014.04.23-14.02.01:010][459]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:038][460]LogBlueprintUserMessages: 627.735901
+[2014.04.23-14.02.01:038][460]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:069][461]LogBlueprintUserMessages: 630.575562
+[2014.04.23-14.02.01:069][461]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:095][462]LogBlueprintUserMessages: 633.639587
+[2014.04.23-14.02.01:095][462]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:123][463]LogBlueprintUserMessages: 636.31958
+[2014.04.23-14.02.01:123][463]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:151][464]LogBlueprintUserMessages: 639.093628
+[2014.04.23-14.02.01:151][464]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:179][465]LogBlueprintUserMessages: 641.865784
+[2014.04.23-14.02.01:179][465]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:209][466]LogBlueprintUserMessages: 644.694824
+[2014.04.23-14.02.01:209][466]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:237][467]LogBlueprintUserMessages: 647.713745
+[2014.04.23-14.02.01:237][467]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:265][468]LogBlueprintUserMessages: 650.523682
+[2014.04.23-14.02.01:266][468]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:293][469]LogBlueprintUserMessages: 653.329651
+[2014.04.23-14.02.01:294][469]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:325][470]LogBlueprintUserMessages: 656.140869
+[2014.04.23-14.02.01:325][470]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:353][471]LogBlueprintUserMessages: 659.280762
+[2014.04.23-14.02.01:353][471]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:382][472]LogBlueprintUserMessages: 662.091064
+[2014.04.23-14.02.01:382][472]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:411][473]LogBlueprintUserMessages: 665.029724
+[2014.04.23-14.02.01:412][473]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:438][474]LogBlueprintUserMessages: 667.962463
+[2014.04.23-14.02.01:438][474]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:467][475]LogBlueprintUserMessages: 670.627808
+[2014.04.23-14.02.01:468][475]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:494][476]LogBlueprintUserMessages: 673.569458
+[2014.04.23-14.02.01:494][476]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:524][477]LogBlueprintUserMessages: 676.248047
+[2014.04.23-14.02.01:525][477]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:555][478]LogBlueprintUserMessages: 679.25293
+[2014.04.23-14.02.01:555][478]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:585][479]LogBlueprintUserMessages: 682.28064
+[2014.04.23-14.02.01:585][479]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:614][480]LogBlueprintUserMessages: 685.197876
+[2014.04.23-14.02.01:614][480]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:644][481]LogBlueprintUserMessages: 688.131897
+[2014.04.23-14.02.01:644][481]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:672][482]LogBlueprintUserMessages: 691.063049
+[2014.04.23-14.02.01:672][482]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:701][483]LogBlueprintUserMessages: 693.912354
+[2014.04.23-14.02.01:702][483]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:727][484]LogBlueprintUserMessages: 696.797668
+[2014.04.23-14.02.01:727][484]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:757][485]LogBlueprintUserMessages: 699.416443
+[2014.04.23-14.02.01:758][485]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:789][486]LogBlueprintUserMessages: 702.392273
+[2014.04.23-14.02.01:789][486]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:818][487]LogBlueprintUserMessages: 705.514221
+[2014.04.23-14.02.01:818][487]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:845][488]LogBlueprintUserMessages: 708.450134
+[2014.04.23-14.02.01:845][488]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:873][489]LogBlueprintUserMessages: 711.11969
+[2014.04.23-14.02.01:874][489]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:902][490]LogBlueprintUserMessages: 714.010376
+[2014.04.23-14.02.01:903][490]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:934][491]LogBlueprintUserMessages: 716.939514
+[2014.04.23-14.02.01:934][491]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:965][492]LogBlueprintUserMessages: 720.059204
+[2014.04.23-14.02.01:965][492]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.01:996][493]LogBlueprintUserMessages: 723.134399
+[2014.04.23-14.02.01:996][493]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:025][494]LogBlueprintUserMessages: 726.215332
+[2014.04.23-14.02.02:025][494]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:058][495]LogBlueprintUserMessages: 729.184143
+[2014.04.23-14.02.02:059][495]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:089][496]LogBlueprintUserMessages: 732.457153
+[2014.04.23-14.02.02:089][496]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:120][497]LogBlueprintUserMessages: 735.556213
+[2014.04.23-14.02.02:120][497]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:150][498]LogBlueprintUserMessages: 738.6922
+[2014.04.23-14.02.02:150][498]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:177][499]LogBlueprintUserMessages: 741.670044
+[2014.04.23-14.02.02:178][499]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:204][500]LogBlueprintUserMessages: 744.475403
+[2014.04.23-14.02.02:205][500]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:235][501]LogBlueprintUserMessages: 747.22113
+[2014.04.23-14.02.02:235][501]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:266][502]LogBlueprintUserMessages: 750.270386
+[2014.04.23-14.02.02:266][502]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:297][503]LogBlueprintUserMessages: 753.327209
+[2014.04.23-14.02.02:297][503]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:326][504]LogBlueprintUserMessages: 756.381897
+[2014.04.23-14.02.02:326][504]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:354][505]LogBlueprintUserMessages: 759.263184
+[2014.04.23-14.02.02:354][505]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:383][506]LogBlueprintUserMessages: 762.124878
+[2014.04.23-14.02.02:384][506]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:415][507]LogBlueprintUserMessages: 765.068787
+[2014.04.23-14.02.02:415][507]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:443][508]LogBlueprintUserMessages: 768.226318
+[2014.04.23-14.02.02:443][508]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:473][509]LogBlueprintUserMessages: 771.067078
+[2014.04.23-14.02.02:473][509]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:502][510]LogBlueprintUserMessages: 774.091858
+[2014.04.23-14.02.02:502][510]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:532][511]LogBlueprintUserMessages: 776.968384
+[2014.04.23-14.02.02:532][511]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:559][512]LogBlueprintUserMessages: 779.850891
+[2014.04.23-14.02.02:559][512]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:588][513]LogBlueprintUserMessages: 782.66333
+[2014.04.23-14.02.02:589][513]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:617][514]LogBlueprintUserMessages: 785.635498
+[2014.04.23-14.02.02:617][514]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:645][515]LogBlueprintUserMessages: 788.526428
+[2014.04.23-14.02.02:645][515]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:676][516]LogBlueprintUserMessages: 791.254944
+[2014.04.23-14.02.02:676][516]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:705][517]LogBlueprintUserMessages: 794.357544
+[2014.04.23-14.02.02:705][517]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:735][518]LogBlueprintUserMessages: 797.306763
+[2014.04.23-14.02.02:736][518]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:763][519]LogBlueprintUserMessages: 800.31427
+[2014.04.23-14.02.02:763][519]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:792][520]LogBlueprintUserMessages: 803.127625
+[2014.04.23-14.02.02:793][520]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:825][521]LogBlueprintUserMessages: 806.059937
+[2014.04.23-14.02.02:825][521]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:854][522]LogBlueprintUserMessages: 809.297913
+[2014.04.23-14.02.02:854][522]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:885][523]LogBlueprintUserMessages: 812.233398
+[2014.04.23-14.02.02:885][523]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:915][524]LogBlueprintUserMessages: 815.309448
+[2014.04.23-14.02.02:916][524]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:944][525]LogBlueprintUserMessages: 818.278625
+[2014.04.23-14.02.02:945][525]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.02:974][526]LogBlueprintUserMessages: 821.257568
+[2014.04.23-14.02.02:974][526]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:002][527]LogBlueprintUserMessages: 824.224365
+[2014.04.23-14.02.03:002][527]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:030][528]LogBlueprintUserMessages: 827.059082
+[2014.04.23-14.02.03:031][528]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:061][529]LogBlueprintUserMessages: 829.838806
+[2014.04.23-14.02.03:062][529]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:093][530]LogBlueprintUserMessages: 832.979553
+[2014.04.23-14.02.03:093][530]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:121][531]LogBlueprintUserMessages: 836.03009
+[2014.04.23-14.02.03:121][531]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:150][532]LogBlueprintUserMessages: 838.848938
+[2014.04.23-14.02.03:150][532]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:179][533]LogBlueprintUserMessages: 841.7323
+[2014.04.23-14.02.03:179][533]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:208][534]LogBlueprintUserMessages: 844.607239
+[2014.04.23-14.02.03:208][534]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:237][535]LogBlueprintUserMessages: 847.520569
+[2014.04.23-14.02.03:237][535]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:266][536]LogBlueprintUserMessages: 850.452637
+[2014.04.23-14.02.03:266][536]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:293][537]LogBlueprintUserMessages: 853.334167
+[2014.04.23-14.02.03:294][537]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:325][538]LogBlueprintUserMessages: 856.070679
+[2014.04.23-14.02.03:325][538]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:353][539]LogBlueprintUserMessages: 859.224487
+[2014.04.23-14.02.03:355][539]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:380][540]LogBlueprintUserMessages: 862.066956
+[2014.04.23-14.02.03:381][540]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.03:526][541]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A19A99C7C0
+[2014.04.23-14.02.07:200][672]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.23-14.02.07:276][672]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.04.23-14.02.07:511][672]LogPlayLevel: PIE:  Blueprint regeneration took 311 ms (1 blueprints)
+[2014.04.23-14.02.07:511][672]PIE: New page: PIE session: MyTest (Apr 23, 2014, 8:02:07 PM)
+[2014.04.23-14.02.07:524][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013216s)
+[2014.04.23-14.02.07:525][672]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2014.04.23-14.02.07:526][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyTest.MyTest to /Game/Maps/UEDPIE_0_MyTest.MyTest (0.014402s)
+[2014.04.23-14.02.07:526][672]LogWorld: Game class is 'AntiGameMode_C'
+[2014.04.23-14.02.07:559][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyTest.MyTest up for play (max tick rate 0) at 2014.04.23-17.02.07
+[2014.04.23-14.02.07:559][672]LogWorld: Bringing up level for play took: 0.002037
+[2014.04.23-14.02.07:561][672]LogPlayerController: ClientRestart_Implementation MyCharackter_C_2
+[2014.04.23-14.02.07:561][672]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharackter_C_2
+[2014.04.23-14.02.07:562][672]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyTest 0.954
+[2014.04.23-14.02.08:830][729]LogBlueprintUserMessages: 2.67857
+[2014.04.23-14.02.08:852][730]LogBlueprintUserMessages: 5.143118
+[2014.04.23-14.02.08:872][731]LogBlueprintUserMessages: 7.348348
+[2014.04.23-14.02.08:892][732]LogBlueprintUserMessages: 9.329994
+[2014.04.23-14.02.08:915][733]LogBlueprintUserMessages: 11.352165
+[2014.04.23-14.02.08:936][734]LogBlueprintUserMessages: 13.717191
+[2014.04.23-14.02.08:957][735]LogBlueprintUserMessages: 15.766109
+[2014.04.23-14.02.08:978][736]LogBlueprintUserMessages: 17.893991
+[2014.04.23-14.02.09:000][737]LogBlueprintUserMessages: 19.967417
+[2014.04.23-14.02.09:020][738]LogBlueprintUserMessages: 22.08342
+[2014.04.23-14.02.09:041][739]LogBlueprintUserMessages: 24.208689
+[2014.04.23-14.02.09:062][740]LogBlueprintUserMessages: 26.297976
+[2014.04.23-14.02.09:086][741]LogBlueprintUserMessages: 28.38723
+[2014.04.23-14.02.09:106][742]LogBlueprintUserMessages: 30.664303
+[2014.04.23-14.02.09:129][743]LogBlueprintUserMessages: 32.708027
+[2014.04.23-14.02.09:154][744]LogBlueprintUserMessages: 35.010323
+[2014.04.23-14.02.09:177][745]LogBlueprintUserMessages: 37.456303
+[2014.04.23-14.02.09:199][746]LogBlueprintUserMessages: 39.773308
+[2014.04.23-14.02.09:220][747]LogBlueprintUserMessages: 41.955368
+[2014.04.23-14.02.09:241][748]LogBlueprintUserMessages: 44.155621
+[2014.04.23-14.02.09:265][749]LogBlueprintUserMessages: 46.254395
+[2014.04.23-14.02.09:287][750]LogBlueprintUserMessages: 48.520145
+[2014.04.23-14.02.09:309][751]LogBlueprintUserMessages: 50.792149
+[2014.04.23-14.02.09:333][752]LogBlueprintUserMessages: 53.027298
+[2014.04.23-14.02.09:353][753]LogBlueprintUserMessages: 55.400845
+[2014.04.23-14.02.09:375][754]LogBlueprintUserMessages: 57.438721
+[2014.04.23-14.02.09:397][755]LogBlueprintUserMessages: 59.565948
+[2014.04.23-14.02.09:420][756]LogBlueprintUserMessages: 61.804363
+[2014.04.23-14.02.09:441][757]LogBlueprintUserMessages: 64.097549
+[2014.04.23-14.02.09:461][758]LogBlueprintUserMessages: 66.251465
+[2014.04.23-14.02.09:485][759]LogBlueprintUserMessages: 68.228882
+[2014.04.23-14.02.09:507][760]LogBlueprintUserMessages: 70.64193
+[2014.04.23-14.02.09:526][761]LogBlueprintUserMessages: 72.768227
+[2014.04.23-14.02.09:546][762]LogBlueprintUserMessages: 74.701111
+[2014.04.23-14.02.09:572][763]LogBlueprintUserMessages: 76.744865
+[2014.04.23-14.02.09:593][764]LogBlueprintUserMessages: 79.28334
+[2014.04.23-14.02.09:612][765]LogBlueprintUserMessages: 81.397385
+[2014.04.23-14.02.09:636][766]LogBlueprintUserMessages: 83.306664
+[2014.04.23-14.02.09:657][767]LogBlueprintUserMessages: 85.69722
+[2014.04.23-14.02.09:678][768]LogBlueprintUserMessages: 87.813568
+[2014.04.23-14.02.09:700][769]LogBlueprintUserMessages: 89.917351
+[2014.04.23-14.02.09:722][770]LogBlueprintUserMessages: 92.140747
+[2014.04.23-14.02.09:743][771]LogBlueprintUserMessages: 94.392532
+[2014.04.23-14.02.09:764][772]LogBlueprintUserMessages: 96.453018
+[2014.04.23-14.02.09:787][773]LogBlueprintUserMessages: 98.456528
+[2014.04.23-14.02.09:810][774]LogBlueprintUserMessages: 100.830635
+[2014.04.23-14.02.09:833][775]LogBlueprintUserMessages: 103.182938
+[2014.04.23-14.02.09:859][776]LogBlueprintUserMessages: 105.471703
+[2014.04.23-14.02.09:883][777]LogBlueprintUserMessages: 107.967659
+[2014.04.23-14.02.09:908][778]LogBlueprintUserMessages: 110.433075
+[2014.04.23-14.02.09:933][779]LogBlueprintUserMessages: 112.896347
+[2014.04.23-14.02.09:957][780]LogBlueprintUserMessages: 115.4356
+[2014.04.23-14.02.09:979][781]LogBlueprintUserMessages: 117.887115
+[2014.04.23-14.02.10:002][782]LogBlueprintUserMessages: 120.099968
+[2014.04.23-14.02.10:031][783]LogBlueprintUserMessages: 122.390663
+[2014.04.23-14.02.10:053][784]LogBlueprintUserMessages: 125.112511
+[2014.04.23-14.02.10:073][785]LogBlueprintUserMessages: 127.41935
+[2014.04.23-14.02.10:093][786]LogBlueprintUserMessages: 129.48848
+[2014.04.23-14.02.10:116][787]LogBlueprintUserMessages: 131.450348
+[2014.04.23-14.02.10:138][788]LogBlueprintUserMessages: 133.728912
+[2014.04.23-14.02.10:155][789]LogBlueprintUserMessages: 135.989288
+[2014.04.23-14.02.10:179][790]LogBlueprintUserMessages: 137.67598
+[2014.04.23-14.02.10:201][791]LogBlueprintUserMessages: 140.043243
+[2014.04.23-14.02.10:221][792]LogBlueprintUserMessages: 142.220047
+[2014.04.23-14.02.10:243][793]LogBlueprintUserMessages: 144.250702
+[2014.04.23-14.02.10:264][794]LogBlueprintUserMessages: 146.439255
+[2014.04.23-14.02.10:287][795]LogBlueprintUserMessages: 148.513077
+[2014.04.23-14.02.10:307][796]LogBlueprintUserMessages: 150.843582
+[2014.04.23-14.02.10:329][797]LogBlueprintUserMessages: 152.837601
+[2014.04.23-14.02.10:351][798]LogBlueprintUserMessages: 155.029739
+[2014.04.23-14.02.10:373][799]LogBlueprintUserMessages: 157.226669
+[2014.04.23-14.02.10:393][800]LogBlueprintUserMessages: 159.40416
+[2014.04.23-14.02.10:415][801]LogBlueprintUserMessages: 161.425079
+[2014.04.23-14.02.10:435][802]LogBlueprintUserMessages: 163.702362
+[2014.04.23-14.02.10:456][803]LogBlueprintUserMessages: 165.709381
+[2014.04.23-14.02.10:486][804]LogBlueprintUserMessages: 167.762589
+[2014.04.23-14.02.10:507][805]LogBlueprintUserMessages: 170.727295
+[2014.04.23-14.02.10:527][806]LogBlueprintUserMessages: 172.841339
+[2014.04.23-14.02.10:549][807]LogBlueprintUserMessages: 174.856674
+[2014.04.23-14.02.10:572][808]LogBlueprintUserMessages: 176.850601
+[2014.04.23-14.02.10:596][809]LogBlueprintUserMessages: 179.266571
+[2014.04.23-14.02.10:617][810]LogBlueprintUserMessages: 181.670197
+[2014.04.23-14.02.10:640][811]LogBlueprintUserMessages: 183.800659
+[2014.04.23-14.02.10:664][812]LogBlueprintUserMessages: 186.077072
+[2014.04.23-14.02.10:690][813]LogBlueprintUserMessages: 188.503311
+[2014.04.23-14.02.10:710][814]LogBlueprintUserMessages: 191.063461
+[2014.04.23-14.02.10:733][815]LogBlueprintUserMessages: 193.120895
+[2014.04.23-14.02.10:758][816]LogBlueprintUserMessages: 195.271454
+[2014.04.23-14.02.10:783][817]LogBlueprintUserMessages: 197.921204
+[2014.04.23-14.02.10:806][818]LogBlueprintUserMessages: 200.36731
+[2014.04.23-14.02.10:806][818]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:827][819]LogBlueprintUserMessages: 202.656754
+[2014.04.23-14.02.10:827][819]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:849][820]LogBlueprintUserMessages: 204.827744
+[2014.04.23-14.02.10:849][820]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:870][821]LogBlueprintUserMessages: 207.013474
+[2014.04.23-14.02.10:870][821]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:893][822]LogBlueprintUserMessages: 209.107773
+[2014.04.23-14.02.10:893][822]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:915][823]LogBlueprintUserMessages: 211.421829
+[2014.04.23-14.02.10:915][823]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:935][824]LogBlueprintUserMessages: 213.534164
+[2014.04.23-14.02.10:936][824]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:958][825]LogBlueprintUserMessages: 215.667267
+[2014.04.23-14.02.10:958][825]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.10:980][826]LogBlueprintUserMessages: 217.921829
+[2014.04.23-14.02.10:980][826]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:010][827]LogBlueprintUserMessages: 220.075241
+[2014.04.23-14.02.11:010][827]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:031][828]LogBlueprintUserMessages: 223.115036
+[2014.04.23-14.02.11:031][828]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:052][829]LogBlueprintUserMessages: 225.23291
+[2014.04.23-14.02.11:052][829]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:073][830]LogBlueprintUserMessages: 227.327911
+[2014.04.23-14.02.11:073][830]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:094][831]LogBlueprintUserMessages: 229.395111
+[2014.04.23-14.02.11:094][831]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:116][832]LogBlueprintUserMessages: 231.480225
+[2014.04.23-14.02.11:117][832]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:140][833]LogBlueprintUserMessages: 233.474152
+[2014.04.23-14.02.11:140][833]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:160][834]LogBlueprintUserMessages: 236.050507
+[2014.04.23-14.02.11:160][834]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:183][835]LogBlueprintUserMessages: 238.117188
+[2014.04.23-14.02.11:183][835]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:204][836]LogBlueprintUserMessages: 240.297623
+[2014.04.23-14.02.11:205][836]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:226][837]LogBlueprintUserMessages: 242.498337
+[2014.04.23-14.02.11:227][837]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:250][838]LogBlueprintUserMessages: 244.735626
+[2014.04.23-14.02.11:251][838]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:273][839]LogBlueprintUserMessages: 247.118317
+[2014.04.23-14.02.11:273][839]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:293][840]LogBlueprintUserMessages: 249.337891
+[2014.04.23-14.02.11:293][840]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:317][841]LogBlueprintUserMessages: 251.368423
+[2014.04.23-14.02.11:317][841]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:340][842]LogBlueprintUserMessages: 253.759644
+[2014.04.23-14.02.11:340][842]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:359][843]LogBlueprintUserMessages: 256.059631
+[2014.04.23-14.02.11:359][843]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:380][844]LogBlueprintUserMessages: 258.018066
+[2014.04.23-14.02.11:381][844]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:403][845]LogBlueprintUserMessages: 260.094116
+[2014.04.23-14.02.11:404][845]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:425][846]LogBlueprintUserMessages: 262.466675
+[2014.04.23-14.02.11:425][846]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:445][847]LogBlueprintUserMessages: 264.619934
+[2014.04.23-14.02.11:445][847]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:468][848]LogBlueprintUserMessages: 266.624115
+[2014.04.23-14.02.11:468][848]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:488][849]LogBlueprintUserMessages: 268.916534
+[2014.04.23-14.02.11:489][849]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:519][850]LogBlueprintUserMessages: 270.963562
+[2014.04.23-14.02.11:520][850]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:542][851]LogBlueprintUserMessages: 274.022705
+[2014.04.23-14.02.11:543][851]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:561][852]LogBlueprintUserMessages: 276.356964
+[2014.04.23-14.02.11:562][852]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:585][853]LogBlueprintUserMessages: 278.285858
+[2014.04.23-14.02.11:585][853]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:606][854]LogBlueprintUserMessages: 280.680573
+[2014.04.23-14.02.11:606][854]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:625][855]LogBlueprintUserMessages: 282.699951
+[2014.04.23-14.02.11:625][855]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:652][856]LogBlueprintUserMessages: 284.582397
+[2014.04.23-14.02.11:652][856]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:674][857]LogBlueprintUserMessages: 287.261047
+[2014.04.23-14.02.11:675][857]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:696][858]LogBlueprintUserMessages: 289.541901
+[2014.04.23-14.02.11:696][858]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:717][859]LogBlueprintUserMessages: 291.678833
+[2014.04.23-14.02.11:717][859]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:739][860]LogBlueprintUserMessages: 293.827423
+[2014.04.23-14.02.11:739][860]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:762][861]LogBlueprintUserMessages: 296.054077
+[2014.04.23-14.02.11:762][861]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:784][862]LogBlueprintUserMessages: 298.303497
+[2014.04.23-14.02.11:785][862]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:807][863]LogBlueprintUserMessages: 300.562347
+[2014.04.23-14.02.11:807][863]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:828][864]LogBlueprintUserMessages: 302.771942
+[2014.04.23-14.02.11:828][864]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:852][865]LogBlueprintUserMessages: 304.954041
+[2014.04.23-14.02.11:852][865]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:873][866]LogBlueprintUserMessages: 307.297333
+[2014.04.23-14.02.11:873][866]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:893][867]LogBlueprintUserMessages: 309.406891
+[2014.04.23-14.02.11:894][867]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:916][868]LogBlueprintUserMessages: 311.460114
+[2014.04.23-14.02.11:917][868]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:940][869]LogBlueprintUserMessages: 313.783905
+[2014.04.23-14.02.11:940][869]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:960][870]LogBlueprintUserMessages: 316.099182
+[2014.04.23-14.02.11:960][870]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.11:982][871]LogBlueprintUserMessages: 318.092834
+[2014.04.23-14.02.11:982][871]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:003][872]LogBlueprintUserMessages: 320.296417
+[2014.04.23-14.02.12:004][872]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:036][873]LogBlueprintUserMessages: 322.491669
+[2014.04.23-14.02.12:036][873]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:058][874]LogBlueprintUserMessages: 325.66272
+[2014.04.23-14.02.12:058][874]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:080][875]LogBlueprintUserMessages: 327.899689
+[2014.04.23-14.02.12:080][875]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:103][876]LogBlueprintUserMessages: 330.008209
+[2014.04.23-14.02.12:103][876]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:124][877]LogBlueprintUserMessages: 332.295502
+[2014.04.23-14.02.12:124][877]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:144][878]LogBlueprintUserMessages: 334.458862
+[2014.04.23-14.02.12:145][878]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:167][879]LogBlueprintUserMessages: 336.492126
+[2014.04.23-14.02.12:168][879]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:189][880]LogBlueprintUserMessages: 338.761444
+[2014.04.23-14.02.12:189][880]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:211][881]LogBlueprintUserMessages: 340.994507
+[2014.04.23-14.02.12:211][881]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:232][882]LogBlueprintUserMessages: 343.156555
+[2014.04.23-14.02.12:232][882]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:256][883]LogBlueprintUserMessages: 345.198975
+[2014.04.23-14.02.12:256][883]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:276][884]LogBlueprintUserMessages: 347.672058
+[2014.04.23-14.02.12:277][884]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:299][885]LogBlueprintUserMessages: 349.745544
+[2014.04.23-14.02.12:300][885]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:323][886]LogBlueprintUserMessages: 352.049561
+[2014.04.23-14.02.12:323][886]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:343][887]LogBlueprintUserMessages: 354.338287
+[2014.04.23-14.02.12:343][887]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:366][888]LogBlueprintUserMessages: 356.367279
+[2014.04.23-14.02.12:366][888]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:390][889]LogBlueprintUserMessages: 358.736664
+[2014.04.23-14.02.12:390][889]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:409][890]LogBlueprintUserMessages: 361.067505
+[2014.04.23-14.02.12:409][890]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:432][891]LogBlueprintUserMessages: 363.009857
+[2014.04.23-14.02.12:432][891]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:454][892]LogBlueprintUserMessages: 365.353485
+[2014.04.23-14.02.12:455][892]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:475][893]LogBlueprintUserMessages: 367.556396
+[2014.04.23-14.02.12:475][893]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:495][894]LogBlueprintUserMessages: 369.617767
+[2014.04.23-14.02.12:496][894]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:517][895]LogBlueprintUserMessages: 371.654358
+[2014.04.23-14.02.12:517][895]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:541][896]LogBlueprintUserMessages: 373.747833
+[2014.04.23-14.02.12:541][896]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:561][897]LogBlueprintUserMessages: 376.178223
+[2014.04.23-14.02.12:561][897]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:583][898]LogBlueprintUserMessages: 378.214661
+[2014.04.23-14.02.12:583][898]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:604][899]LogBlueprintUserMessages: 380.413879
+[2014.04.23-14.02.12:604][899]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:625][900]LogBlueprintUserMessages: 382.532471
+[2014.04.23-14.02.12:625][900]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:645][901]LogBlueprintUserMessages: 384.616791
+[2014.04.23-14.02.12:645][901]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:665][902]LogBlueprintUserMessages: 386.656494
+[2014.04.23-14.02.12:666][902]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:688][903]LogBlueprintUserMessages: 388.616028
+[2014.04.23-14.02.12:688][903]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:708][904]LogBlueprintUserMessages: 390.940399
+[2014.04.23-14.02.12:708][904]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:729][905]LogBlueprintUserMessages: 392.932343
+[2014.04.23-14.02.12:731][905]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:752][906]LogBlueprintUserMessages: 395.082581
+[2014.04.23-14.02.12:752][906]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:775][907]LogBlueprintUserMessages: 397.348114
+[2014.04.23-14.02.12:775][907]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:795][908]LogBlueprintUserMessages: 399.603241
+[2014.04.23-14.02.12:796][908]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:817][909]LogBlueprintUserMessages: 401.669769
+[2014.04.23-14.02.12:817][909]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:838][910]LogBlueprintUserMessages: 403.788452
+[2014.04.23-14.02.12:838][910]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:859][911]LogBlueprintUserMessages: 405.954132
+[2014.04.23-14.02.12:859][911]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:882][912]LogBlueprintUserMessages: 408.019348
+[2014.04.23-14.02.12:882][912]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:904][913]LogBlueprintUserMessages: 410.383545
+[2014.04.23-14.02.12:904][913]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:927][914]LogBlueprintUserMessages: 412.546844
+[2014.04.23-14.02.12:927][914]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:948][915]LogBlueprintUserMessages: 414.861206
+[2014.04.23-14.02.12:948][915]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:970][916]LogBlueprintUserMessages: 416.770355
+[2014.04.23-14.02.12:970][916]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.12:991][917]LogBlueprintUserMessages: 419.122467
+[2014.04.23-14.02.12:992][917]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:011][918]LogBlueprintUserMessages: 421.273071
+[2014.04.23-14.02.13:012][918]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:034][919]LogBlueprintUserMessages: 423.294434
+[2014.04.23-14.02.13:034][919]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:060][920]LogBlueprintUserMessages: 425.573456
+[2014.04.23-14.02.13:061][920]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:095][921]LogBlueprintUserMessages: 428.20517
+[2014.04.23-14.02.13:095][921]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:119][922]LogBlueprintUserMessages: 431.622803
+[2014.04.23-14.02.13:120][922]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:140][923]LogBlueprintUserMessages: 434.10022
+[2014.04.23-14.02.13:141][923]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:159][924]LogBlueprintUserMessages: 436.199799
+[2014.04.23-14.02.13:159][924]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:179][925]LogBlueprintUserMessages: 438.050629
+[2014.04.23-14.02.13:179][925]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:205][926]LogBlueprintUserMessages: 440.059967
+[2014.04.23-14.02.13:206][926]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:227][927]LogBlueprintUserMessages: 442.712189
+[2014.04.23-14.02.13:227][927]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:248][928]LogBlueprintUserMessages: 444.843811
+[2014.04.23-14.02.13:248][928]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:269][929]LogBlueprintUserMessages: 446.92627
+[2014.04.23-14.02.13:269][929]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:291][930]LogBlueprintUserMessages: 449.092712
+[2014.04.23-14.02.13:291][930]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:310][931]LogBlueprintUserMessages: 451.234558
+[2014.04.23-14.02.13:311][931]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:333][932]LogBlueprintUserMessages: 453.210114
+[2014.04.23-14.02.13:334][932]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:356][933]LogBlueprintUserMessages: 455.508423
+[2014.04.23-14.02.13:356][933]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:378][934]LogBlueprintUserMessages: 457.779358
+[2014.04.23-14.02.13:378][934]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:399][935]LogBlueprintUserMessages: 459.999725
+[2014.04.23-14.02.13:399][935]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:420][936]LogBlueprintUserMessages: 462.000183
+[2014.04.23-14.02.13:421][936]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:443][937]LogBlueprintUserMessages: 464.174774
+[2014.04.23-14.02.13:444][937]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:463][938]LogBlueprintUserMessages: 466.403381
+[2014.04.23-14.02.13:464][938]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:486][939]LogBlueprintUserMessages: 468.405365
+[2014.04.23-14.02.13:486][939]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:509][940]LogBlueprintUserMessages: 470.736298
+[2014.04.23-14.02.13:509][940]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:532][941]LogBlueprintUserMessages: 472.994843
+[2014.04.23-14.02.13:532][941]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:553][942]LogBlueprintUserMessages: 475.377014
+[2014.04.23-14.02.13:553][942]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:575][943]LogBlueprintUserMessages: 477.479095
+[2014.04.23-14.02.13:576][943]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:607][944]LogBlueprintUserMessages: 479.594269
+[2014.04.23-14.02.13:607][944]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:628][945]LogBlueprintUserMessages: 482.73056
+[2014.04.23-14.02.13:629][945]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:652][946]LogBlueprintUserMessages: 484.868774
+[2014.04.23-14.02.13:653][946]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:674][947]LogBlueprintUserMessages: 487.268402
+[2014.04.23-14.02.13:674][947]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:694][948]LogBlueprintUserMessages: 489.429077
+[2014.04.23-14.02.13:694][948]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:717][949]LogBlueprintUserMessages: 491.475372
+[2014.04.23-14.02.13:717][949]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:739][950]LogBlueprintUserMessages: 493.754791
+[2014.04.23-14.02.13:739][950]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:758][951]LogBlueprintUserMessages: 495.898712
+[2014.04.23-14.02.13:759][951]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:782][952]LogBlueprintUserMessages: 497.878235
+[2014.04.23-14.02.13:782][952]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:807][953]LogBlueprintUserMessages: 500.080078
+[2014.04.23-14.02.13:807][953]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:829][954]LogBlueprintUserMessages: 502.767426
+[2014.04.23-14.02.13:829][954]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:850][955]LogBlueprintUserMessages: 504.952087
+[2014.04.23-14.02.13:850][955]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:873][956]LogBlueprintUserMessages: 507.09082
+[2014.04.23-14.02.13:874][956]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:895][957]LogBlueprintUserMessages: 509.346558
+[2014.04.23-14.02.13:895][957]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:918][958]LogBlueprintUserMessages: 511.527191
+[2014.04.23-14.02.13:918][958]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:941][959]LogBlueprintUserMessages: 513.849731
+[2014.04.23-14.02.13:941][959]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:962][960]LogBlueprintUserMessages: 516.161133
+[2014.04.23-14.02.13:962][960]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.13:983][961]LogBlueprintUserMessages: 518.253296
+[2014.04.23-14.02.13:983][961]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:008][962]LogBlueprintUserMessages: 520.40918
+[2014.04.23-14.02.14:008][962]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:028][963]LogBlueprintUserMessages: 522.78363
+[2014.04.23-14.02.14:028][963]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:050][964]LogBlueprintUserMessages: 524.883728
+[2014.04.23-14.02.14:050][964]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:072][965]LogBlueprintUserMessages: 527.107117
+[2014.04.23-14.02.14:073][965]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:095][966]LogBlueprintUserMessages: 529.311462
+[2014.04.23-14.02.14:095][966]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:115][967]LogBlueprintUserMessages: 531.436462
+[2014.04.23-14.02.14:116][967]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:138][968]LogBlueprintUserMessages: 533.593018
+[2014.04.23-14.02.14:138][968]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:158][969]LogBlueprintUserMessages: 535.914612
+[2014.04.23-14.02.14:159][969]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:179][970]LogBlueprintUserMessages: 537.939636
+[2014.04.23-14.02.14:179][970]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:201][971]LogBlueprintUserMessages: 540.052307
+[2014.04.23-14.02.14:201][971]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:224][972]LogBlueprintUserMessages: 542.212891
+[2014.04.23-14.02.14:224][972]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:245][973]LogBlueprintUserMessages: 544.496704
+[2014.04.23-14.02.14:245][973]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:267][974]LogBlueprintUserMessages: 546.581421
+[2014.04.23-14.02.14:267][974]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:290][975]LogBlueprintUserMessages: 548.790894
+[2014.04.23-14.02.14:290][975]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:311][976]LogBlueprintUserMessages: 551.140137
+[2014.04.23-14.02.14:311][976]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:333][977]LogBlueprintUserMessages: 553.23645
+[2014.04.23-14.02.14:334][977]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:354][978]LogBlueprintUserMessages: 555.348145
+[2014.04.23-14.02.14:354][978]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:377][979]LogBlueprintUserMessages: 557.519775
+[2014.04.23-14.02.14:377][979]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:399][980]LogBlueprintUserMessages: 559.805359
+[2014.04.23-14.02.14:399][980]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:419][981]LogBlueprintUserMessages: 561.945129
+[2014.04.23-14.02.14:419][981]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:441][982]LogBlueprintUserMessages: 564.00946
+[2014.04.23-14.02.14:442][982]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:465][983]LogBlueprintUserMessages: 566.249512
+[2014.04.23-14.02.14:465][983]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:486][984]LogBlueprintUserMessages: 568.638855
+[2014.04.23-14.02.14:486][984]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:508][985]LogBlueprintUserMessages: 570.694153
+[2014.04.23-14.02.14:508][985]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:529][986]LogBlueprintUserMessages: 572.879395
+[2014.04.23-14.02.14:530][986]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:553][987]LogBlueprintUserMessages: 575.00647
+[2014.04.23-14.02.14:553][987]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:575][988]LogBlueprintUserMessages: 577.400024
+[2014.04.23-14.02.14:576][988]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:595][989]LogBlueprintUserMessages: 579.67926
+[2014.04.23-14.02.14:595][989]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:618][990]LogBlueprintUserMessages: 581.653381
+[2014.04.23-14.02.14:619][990]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:639][991]LogBlueprintUserMessages: 583.993591
+[2014.04.23-14.02.14:639][991]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:659][992]LogBlueprintUserMessages: 586.09314
+[2014.04.23-14.02.14:659][992]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:680][993]LogBlueprintUserMessages: 588.054138
+[2014.04.23-14.02.14:680][993]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:702][994]LogBlueprintUserMessages: 590.104309
+[2014.04.23-14.02.14:703][994]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:722][995]LogBlueprintUserMessages: 592.409729
+[2014.04.23-14.02.14:723][995]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:742][996]LogBlueprintUserMessages: 594.410034
+[2014.04.23-14.02.14:742][996]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:765][997]LogBlueprintUserMessages: 596.33197
+[2014.04.23-14.02.14:766][997]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:787][998]LogBlueprintUserMessages: 598.706787
+[2014.04.23-14.02.14:787][998]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:808][999]LogBlueprintUserMessages: 600.894348
+[2014.04.23-14.02.14:808][999]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:828][  0]LogBlueprintUserMessages: 602.984131
+[2014.04.23-14.02.14:828][  0]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:850][  1]LogBlueprintUserMessages: 604.975098
+[2014.04.23-14.02.14:850][  1]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:872][  2]LogBlueprintUserMessages: 607.155029
+[2014.04.23-14.02.14:872][  2]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:895][  3]LogBlueprintUserMessages: 609.35437
+[2014.04.23-14.02.14:895][  3]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:917][  4]LogBlueprintUserMessages: 611.687073
+[2014.04.23-14.02.14:918][  4]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:941][  5]LogBlueprintUserMessages: 613.908813
+[2014.04.23-14.02.14:941][  5]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:960][  6]LogBlueprintUserMessages: 616.241089
+[2014.04.23-14.02.14:960][  6]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.14:982][  7]LogBlueprintUserMessages: 618.158752
+[2014.04.23-14.02.14:983][  7]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:003][  8]LogBlueprintUserMessages: 620.440063
+[2014.04.23-14.02.15:003][  8]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:025][  9]LogBlueprintUserMessages: 622.512085
+[2014.04.23-14.02.15:025][  9]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:045][ 10]LogBlueprintUserMessages: 624.705444
+[2014.04.23-14.02.15:045][ 10]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:068][ 11]LogBlueprintUserMessages: 626.65155
+[2014.04.23-14.02.15:068][ 11]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:090][ 12]LogBlueprintUserMessages: 628.962524
+[2014.04.23-14.02.15:090][ 12]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:109][ 13]LogBlueprintUserMessages: 631.12262
+[2014.04.23-14.02.15:110][ 13]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:133][ 14]LogBlueprintUserMessages: 633.021667
+[2014.04.23-14.02.15:134][ 14]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:155][ 15]LogBlueprintUserMessages: 635.20343
+[2014.04.23-14.02.15:155][ 15]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:176][ 16]LogBlueprintUserMessages: 637.579651
+[2014.04.23-14.02.15:176][ 16]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:198][ 17]LogBlueprintUserMessages: 639.611755
+[2014.04.23-14.02.15:199][ 17]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:222][ 18]LogBlueprintUserMessages: 641.688904
+[2014.04.23-14.02.15:222][ 18]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:245][ 19]LogBlueprintUserMessages: 644.249451
+[2014.04.23-14.02.15:245][ 19]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:267][ 20]LogBlueprintUserMessages: 646.54657
+[2014.04.23-14.02.15:268][ 20]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:289][ 21]LogBlueprintUserMessages: 648.741455
+[2014.04.23-14.02.15:289][ 21]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:312][ 22]LogBlueprintUserMessages: 650.978943
+[2014.04.23-14.02.15:312][ 22]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:334][ 23]LogBlueprintUserMessages: 653.214294
+[2014.04.23-14.02.15:335][ 23]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:357][ 24]LogBlueprintUserMessages: 655.503479
+[2014.04.23-14.02.15:357][ 24]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:378][ 25]LogBlueprintUserMessages: 657.785339
+[2014.04.23-14.02.15:378][ 25]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:402][ 26]LogBlueprintUserMessages: 659.89624
+[2014.04.23-14.02.15:403][ 26]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:425][ 27]LogBlueprintUserMessages: 662.293213
+[2014.04.23-14.02.15:425][ 27]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:448][ 28]LogBlueprintUserMessages: 664.573425
+[2014.04.23-14.02.15:449][ 28]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:468][ 29]LogBlueprintUserMessages: 666.761108
+[2014.04.23-14.02.15:468][ 29]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:489][ 30]LogBlueprintUserMessages: 668.875
+[2014.04.23-14.02.15:489][ 30]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:509][ 31]LogBlueprintUserMessages: 671.035461
+[2014.04.23-14.02.15:509][ 31]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:529][ 32]LogBlueprintUserMessages: 673.020447
+[2014.04.23-14.02.15:529][ 32]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:553][ 33]LogBlueprintUserMessages: 675.038879
+[2014.04.23-14.02.15:554][ 33]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:574][ 34]LogBlueprintUserMessages: 677.455078
+[2014.04.23-14.02.15:574][ 34]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:594][ 35]LogBlueprintUserMessages: 679.551392
+[2014.04.23-14.02.15:595][ 35]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:612][ 36]LogBlueprintUserMessages: 681.558899
+[2014.04.23-14.02.15:613][ 36]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:639][ 37]LogBlueprintUserMessages: 683.331665
+[2014.04.23-14.02.15:639][ 37]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:660][ 38]LogBlueprintUserMessages: 686.030579
+[2014.04.23-14.02.15:660][ 38]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:682][ 39]LogBlueprintUserMessages: 688.105103
+[2014.04.23-14.02.15:683][ 39]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:703][ 40]LogBlueprintUserMessages: 690.355347
+[2014.04.23-14.02.15:703][ 40]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:733][ 41]LogBlueprintUserMessages: 692.440247
+[2014.04.23-14.02.15:733][ 41]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:754][ 42]LogBlueprintUserMessages: 695.435547
+[2014.04.23-14.02.15:755][ 42]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:777][ 43]LogBlueprintUserMessages: 697.575317
+[2014.04.23-14.02.15:777][ 43]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:798][ 44]LogBlueprintUserMessages: 699.831665
+[2014.04.23-14.02.15:798][ 44]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:819][ 45]LogBlueprintUserMessages: 701.878357
+[2014.04.23-14.02.15:819][ 45]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:840][ 46]LogBlueprintUserMessages: 704.042786
+[2014.04.23-14.02.15:840][ 46]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:859][ 47]LogBlueprintUserMessages: 706.135803
+[2014.04.23-14.02.15:859][ 47]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:882][ 48]LogBlueprintUserMessages: 708.030884
+[2014.04.23-14.02.15:883][ 48]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:904][ 49]LogBlueprintUserMessages: 710.371216
+[2014.04.23-14.02.15:904][ 49]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:926][ 50]LogBlueprintUserMessages: 712.578308
+[2014.04.23-14.02.15:926][ 50]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:944][ 51]LogBlueprintUserMessages: 714.706604
+[2014.04.23-14.02.15:945][ 51]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:967][ 52]LogBlueprintUserMessages: 716.505249
+[2014.04.23-14.02.15:968][ 52]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.15:990][ 53]LogBlueprintUserMessages: 718.88501
+[2014.04.23-14.02.15:990][ 53]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:009][ 54]LogBlueprintUserMessages: 721.138794
+[2014.04.23-14.02.16:010][ 54]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:032][ 55]LogBlueprintUserMessages: 723.091431
+[2014.04.23-14.02.16:032][ 55]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:055][ 56]LogBlueprintUserMessages: 725.357117
+[2014.04.23-14.02.16:056][ 56]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:077][ 57]LogBlueprintUserMessages: 727.690063
+[2014.04.23-14.02.16:077][ 57]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:101][ 58]LogBlueprintUserMessages: 729.827942
+[2014.04.23-14.02.16:102][ 58]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:126][ 59]LogBlueprintUserMessages: 732.298584
+[2014.04.23-14.02.16:127][ 59]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:148][ 60]LogBlueprintUserMessages: 734.78949
+[2014.04.23-14.02.16:148][ 60]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:172][ 61]LogBlueprintUserMessages: 736.991638
+[2014.04.23-14.02.16:172][ 61]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:192][ 62]LogBlueprintUserMessages: 739.331177
+[2014.04.23-14.02.16:192][ 62]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:213][ 63]LogBlueprintUserMessages: 741.337891
+[2014.04.23-14.02.16:213][ 63]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:243][ 64]LogBlueprintUserMessages: 743.488953
+[2014.04.23-14.02.16:243][ 64]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:267][ 65]LogBlueprintUserMessages: 746.472046
+[2014.04.23-14.02.16:267][ 65]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:286][ 66]LogBlueprintUserMessages: 748.716492
+[2014.04.23-14.02.16:287][ 66]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:307][ 67]LogBlueprintUserMessages: 750.824768
+[2014.04.23-14.02.16:307][ 67]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:327][ 68]LogBlueprintUserMessages: 752.843018
+[2014.04.23-14.02.16:328][ 68]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:352][ 69]LogBlueprintUserMessages: 754.911438
+[2014.04.23-14.02.16:352][ 69]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:374][ 70]LogBlueprintUserMessages: 757.380676
+[2014.04.23-14.02.16:375][ 70]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:394][ 71]LogBlueprintUserMessages: 759.606384
+[2014.04.23-14.02.16:395][ 71]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:419][ 72]LogBlueprintUserMessages: 761.618958
+[2014.04.23-14.02.16:419][ 72]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:441][ 73]LogBlueprintUserMessages: 764.065002
+[2014.04.23-14.02.16:442][ 73]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:461][ 74]LogBlueprintUserMessages: 766.321472
+[2014.04.23-14.02.16:462][ 74]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:484][ 75]LogBlueprintUserMessages: 768.316284
+[2014.04.23-14.02.16:485][ 75]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:507][ 76]LogBlueprintUserMessages: 770.621887
+[2014.04.23-14.02.16:507][ 76]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:527][ 77]LogBlueprintUserMessages: 772.843689
+[2014.04.23-14.02.16:527][ 77]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:549][ 78]LogBlueprintUserMessages: 774.911255
+[2014.04.23-14.02.16:550][ 78]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:571][ 79]LogBlueprintUserMessages: 777.075989
+[2014.04.23-14.02.16:571][ 79]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:592][ 80]LogBlueprintUserMessages: 779.287842
+[2014.04.23-14.02.16:593][ 80]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:612][ 81]LogBlueprintUserMessages: 781.342896
+[2014.04.23-14.02.16:612][ 81]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:635][ 82]LogBlueprintUserMessages: 783.287415
+[2014.04.23-14.02.16:635][ 82]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:657][ 83]LogBlueprintUserMessages: 785.568909
+[2014.04.23-14.02.16:657][ 83]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:679][ 84]LogBlueprintUserMessages: 787.808044
+[2014.04.23-14.02.16:679][ 84]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:700][ 85]LogBlueprintUserMessages: 789.99054
+[2014.04.23-14.02.16:702][ 85]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:723][ 86]LogBlueprintUserMessages: 791.971802
+[2014.04.23-14.02.16:723][ 86]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:751][ 87]LogBlueprintUserMessages: 794.356995
+[2014.04.23-14.02.16:751][ 87]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:772][ 88]LogBlueprintUserMessages: 797.20166
+[2014.04.23-14.02.16:772][ 88]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:793][ 89]LogBlueprintUserMessages: 799.267883
+[2014.04.23-14.02.16:793][ 89]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:814][ 90]LogBlueprintUserMessages: 801.369507
+[2014.04.23-14.02.16:814][ 90]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:836][ 91]LogBlueprintUserMessages: 803.442993
+[2014.04.23-14.02.16:836][ 91]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:859][ 92]LogBlueprintUserMessages: 805.707397
+[2014.04.23-14.02.16:860][ 92]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:878][ 93]LogBlueprintUserMessages: 808.060913
+[2014.04.23-14.02.16:878][ 93]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:903][ 94]LogBlueprintUserMessages: 809.941895
+[2014.04.23-14.02.16:903][ 94]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:925][ 95]LogBlueprintUserMessages: 812.375916
+[2014.04.23-14.02.16:925][ 95]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:946][ 96]LogBlueprintUserMessages: 814.637085
+[2014.04.23-14.02.16:946][ 96]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:967][ 97]LogBlueprintUserMessages: 816.695068
+[2014.04.23-14.02.16:967][ 97]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.16:988][ 98]LogBlueprintUserMessages: 818.740479
+[2014.04.23-14.02.16:988][ 98]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:011][ 99]LogBlueprintUserMessages: 820.921021
+[2014.04.23-14.02.17:011][ 99]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:034][100]LogBlueprintUserMessages: 823.248779
+[2014.04.23-14.02.17:034][100]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:054][101]LogBlueprintUserMessages: 825.410828
+[2014.04.23-14.02.17:055][101]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:077][102]LogBlueprintUserMessages: 827.571411
+[2014.04.23-14.02.17:077][102]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:099][103]LogBlueprintUserMessages: 829.83905
+[2014.04.23-14.02.17:099][103]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:118][104]LogBlueprintUserMessages: 832.047485
+[2014.04.23-14.02.17:119][104]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:141][105]LogBlueprintUserMessages: 833.920105
+[2014.04.23-14.02.17:141][105]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:165][106]LogBlueprintUserMessages: 836.230286
+[2014.04.23-14.02.17:165][106]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:186][107]LogBlueprintUserMessages: 838.619751
+[2014.04.23-14.02.17:186][107]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:206][108]LogBlueprintUserMessages: 840.721008
+[2014.04.23-14.02.17:207][108]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:227][109]LogBlueprintUserMessages: 842.781006
+[2014.04.23-14.02.17:227][109]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:254][110]LogBlueprintUserMessages: 844.854126
+[2014.04.23-14.02.17:255][110]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:275][111]LogBlueprintUserMessages: 847.56842
+[2014.04.23-14.02.17:275][111]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:297][112]LogBlueprintUserMessages: 849.595215
+[2014.04.23-14.02.17:297][112]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:321][113]LogBlueprintUserMessages: 851.806885
+[2014.04.23-14.02.17:321][113]LogBlueprintUserMessages: Can draw
+[2014.04.23-14.02.17:440][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1914287C0
+[2014.04.23-14.07.03:790][575]LogSavePackage: Save=275.812073ms
+[2014.04.23-14.07.03:790][575]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto49967B34C463559628FA698B8EF1D9E68.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto4.umap'
+[2014.04.23-14.07.03:802][575]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.425
+[2014.04.23-14.07.03:802][575]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.425
+[2014.04.23-14.17.04:331][394]LogSavePackage: Save=276.724243ms
+[2014.04.23-14.17.04:331][394]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto55AC3BC6B4039228562E7AD985F9D91F6.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto5.umap'
+[2014.04.23-14.17.04:341][394]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.428
+[2014.04.23-14.17.04:341][394]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.428
+[2014.04.23-14.27.04:866][311]LogSavePackage: Save=282.186493ms
+[2014.04.23-14.27.04:866][311]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto6AECB58784096661CD2EB9DA26A0D618F.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto6.umap'
+[2014.04.23-14.27.04:877][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.422
+[2014.04.23-14.27.04:877][311]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.422
+[2014.04.23-14.37.05:461][610]LogSavePackage: Save=307.722382ms
+[2014.04.23-14.37.05:461][610]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto731028A054110D114F1D6A6800A59DA22.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto7.umap'
+[2014.04.23-14.37.05:473][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.474
+[2014.04.23-14.37.05:473][610]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.474
+[2014.04.23-14.44.51:904][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1949318A0
+[2014.04.23-14.44.54:756][552]LogSavePackage: Save=166.751984ms
+[2014.04.23-14.44.54:756][552]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTestAC77CA4D4C0ADA70B0374C92938565BF.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/MyTest.umap'
+[2014.04.23-14.44.54:802][552]LogFileHelpers: Saving map 'MyTest' took 0.341
+[2014.04.23-14.44.55:077][553]Cmd: QUIT_EDITOR
+[2014.04.23-14.44.55:145][553]LogExit: Preparing to exit.
+[2014.04.23-14.44.55:443][553]LogExit: Editor shut down
+[2014.04.23-14.44.55:443][553]LogExit: Transaction tracking system shut down
+[2014.04.23-14.44.55:444][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1984DAE80
+[2014.04.23-14.44.55:445][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A1982E0540
+[2014.04.23-14.44.55:472][553]LogExit: Object subsystem successfully closed.
+[2014.04.23-14.44.55:474][553]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2861) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module HTTP (142)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module CrashTracker (141)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module SceneOutliner (140)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module EditorWidgets (139)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module CollectionManager (138)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module StatsViewer (137)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module FoliageEdit (136)
+[2014.04.23-14.44.55:515][553]LogModuleManager: Shutting down and abandoning module LandscapeEditor (135)
+[2014.04.23-14.44.55:519][553]LogModuleManager: Shutting down and abandoning module MeshPaint (134)
+[2014.04.23-14.44.55:519][553]LogModuleManager: Shutting down and abandoning module GeometryMode (133)
+[2014.04.23-14.44.55:519][553]LogModuleManager: Shutting down and abandoning module TextureAlignMode (132)
+[2014.04.23-14.44.55:519][553]LogModuleManager: Shutting down and abandoning module BspMode (131)
+[2014.04.23-14.44.55:519][553]LogModuleManager: Shutting down and abandoning module PlacementMode (130)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module AutomationWorker (129)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module ViewportSnapping (128)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (127)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module UserFeedback (126)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module XmlParser (125)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (124)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module Blutility (123)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (122)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (121)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (118)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module InputBindingEditor (117)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (116)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module SettingsEditor (115)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module SessionLauncher (114)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module SessionFrontend (113)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module ProfilerClient (112)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (111)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module DeviceManager (110)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module AutomationController (109)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module AutomationWindow (108)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module Layers (107)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (106)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module DetailCustomizations (105)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module PreferencesEditor (104)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module PackagesDialog (103)
+[2014.04.23-14.44.55:520][553]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2014.04.23-14.44.55:521][553]LogModuleManager: Shutting down and abandoning module AssetRegistry (101)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module Persona (100)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module GraphEditor (99)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module ClassViewer (97)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module Toolbox (96)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module ModuleUI (95)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module Sequencer (94)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module AssetTools (93)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module MovieSceneTools (92)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module OutputLog (91)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module GammaUI (90)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module Documentation (89)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module DesktopPlatform (88)
+[2014.04.23-14.44.55:533][553]LogModuleManager: Shutting down and abandoning module ProfilerService (87)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module TaskGraph (86)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module MainFrame (81)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module SourceControl (80)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module ImageWrapper (79)
+[2014.04.23-14.44.55:602][553]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
+[2014.04.23-14.44.55:603][553]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
+[2014.04.23-14.44.55:603][553]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (76)
+[2014.04.23-14.44.55:603][553]LogModuleManager: Shutting down and abandoning module MessageLog (75)
+[2014.04.23-14.44.55:603][553]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2014.04.23-14.44.55:603][553]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module SessionServices (72)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module VSAccessor (71)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (70)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module XAudio2 (69)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module Core (67)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module KismetCompiler (66)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module PhysXFormats (65)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module MeshUtilities (64)
+[2014.04.23-14.44.55:604][553]LogModuleManager: Shutting down and abandoning module DerivedDataCache (63)
+[2014.04.23-14.44.55:673][553]LogDerivedDataCache: Shutdown
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (57)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (56)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (54)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module PropertyEditor (53)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (52)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (51)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (50)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (49)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module TargetPlatform (48)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module Settings (45)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module TextureCompressor (42)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module ShaderCore (41)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module OpenGLDrv (40)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module D3D11RHI (39)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (38)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module Renderer (37)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module Engine (36)
+[2014.04.23-14.44.55:673][553]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (35)
+[2014.04.23-14.44.55:675][553]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2014.04.23-14.44.55:675][553]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (29)
+[2014.04.23-14.44.55:675][553]LogModuleManager: Shutting down and abandoning module CableComponent (28)
+[2014.04.23-14.44.55:675][553]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.04.23-14.44.55:675][553]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module PluginsEditor (12)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module IntroTutorials (11)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module EpicSurvey (10)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.04.23-14.44.55:776][553]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.04.23-14.44.55:777][553]LogExit: Exiting.
+[2014.04.23-14.44.55:777][553]Log file closed, 04/23/14 17:44:55
