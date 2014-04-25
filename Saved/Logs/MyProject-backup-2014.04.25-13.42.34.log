@@ -1,0 +1,406 @@
+Log file open, 04/24/14 11:13:36
+LogInit:Display: Running engine for game: MyProject
+LogInit: Version: 4.0.1-0+UE4
+LogInit: Compiled (64-bit): Apr  3 2014 11:44:54
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/UnrealEngine-4.0.1-release/Engine/Binaries/Win64/
+[2014.04.24-08.13.36:289][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.04.24-08.13.36:318][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.04.24-08.13.36:325][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.04.24-08.13.36:332][  0]LogInit: Object subsystem initialized
+[2014.04.24-08.13.36:333][  0]LogInit: Selected Device Profile: [Windows]
+[2014.04.24-08.13.36:333][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.04.24-08.13.36:340][  0]LogInit: Computer: BOSHCHUKV
+[2014.04.24-08.13.36:340][  0]LogInit: User: vboshchuk
+[2014.04.24-08.13.36:341][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.04.24-08.13.36:341][  0]LogInit: High frequency timer resolution =3.215356 MHz
+[2014.04.24-08.13.36:341][  0]LogInit: Memory total: Physical=15.9GB (16GB approx) Pagefile=8176.1GB Virtual=8192.0GB
+[2014.04.24-08.13.36:354][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.04.24-08.13.36:354][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory
+[2014.04.24-08.13.36:355][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.04.24-08.13.36:355][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory
+[2014.04.24-08.13.36:359][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
+[2014.04.24-08.13.36:362][  0]LogD3D11RHI: Async texture creation enabled
+[2014.04.24-08.13.36:424][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.24-08.13.36:445][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.04.24-08.13.36:478][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.04.24-08.13.37:002][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.24-08.13.37:067][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.04.24-08.13.37:094][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.04.24-08.13.37:130][  0]LogDerivedDataCache: Loaded boot cache 0.04s 37MB C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
+[2014.04.24-08.13.37:130][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc
+[2014.04.24-08.13.37:130][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.04.24-08.13.37:130][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.04.24-08.13.37:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.04.24-08.13.37:131][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.04.24-08.13.37:143][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.04.24-08.13.43:958][  0]LogDerivedDataCache:Warning: Fail to write to //epicgames.net/root/UE4DDC, derived data cache to this directory will be read only.
+[2014.04.24-08.13.43:958][  0]LogDerivedDataCache:Warning: Shared data cache path was not usable, will not use it.
+[2014.04.24-08.13.43:958][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.04.24-08.13.44:126][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.04.24-08.13.44:126][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.04.24-08.13.44:341][  0]LogEnum:Warning: Enum Text 1 for Enum ECustomDepth failed to resolve to any value
+[2014.04.24-08.13.44:341][  0]LogEnum:Warning: Enum Text 3 for Enum EEarlyZPass failed to resolve to any value
+[2014.04.24-08.13.44:342][  0]LogEnum:Warning: Enum Text 1 for Enum EClearSceneOptions failed to resolve to any value
+[2014.04.24-08.13.44:342][  0]LogEnum:Warning: Enum Text 4 for Enum ECompositingSampleCount failed to resolve to any value
+[2014.04.24-08.13.44:953][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.04.24-08.13.45:040][  0]SourceControl: Info Source control is disabled
+[2014.04.24-08.13.45:040][  0]SourceControl: Info Source control is disabled
+[2014.04.24-08.13.45:047][  0]SourceControl: Info Source control is disabled
+[2014.04.24-08.13.45:118][  0]BlueprintLog: New page: Editor Load
+[2014.04.24-08.13.45:146][  0]LogObj: 18325 objects as part of root set at end of initial load.
+[2014.04.24-08.13.45:146][  0]LogUObjectAllocator: 3624888 out of 0 bytes used by permanent object pool.
+[2014.04.24-08.13.45:350][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.24-08.13.45:350][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.24-08.13.45:350][  0]LogAutomationTest:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:ToggleRealtime_ToolTip):
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-291638278) String: (Toggle Realtime)
+Resource: (D:/UnrealEngine-4.0.1-release/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-1913389001) String: (Toggles real time rendering in this viewport)
+[2014.04.24-08.13.45:351][  0]LogEngine: Initializing Engine...
+[2014.04.24-08.13.45:452][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.04.24-08.13.45:460][  0]LogInit: FAudioDevice initialized.
+[2014.04.24-08.13.45:483][  0]LogDerivedDataCache: Saved boot cache 0.02s 37MB C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/DerivedDataCache/Boot.ddc.
+[2014.04.24-08.13.45:487][  0]LogInit: Texture streaming: Enabled
+[2014.04.24-08.13.45:510][  0]LogInit: Transaction tracking system initialized
+[2014.04.24-08.13.45:616][  0]LogAssetRegistry: FAssetRegistry took 0.010548 seconds to start up
+[2014.04.24-08.13.45:766][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.24-08.13.45:771][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.04.24-08.13.45:828][  0]LogConsoleResponse:Display: 
+[2014.04.24-08.13.46:095][  0]SourceControl: Info Source control is disabled
+[2014.04.24-08.13.46:095][  0]Cmd: MAP LOAD FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.24-08.13.46:096][  0]LightingResults: New page: Lighting Build
+[2014.04.24-08.13.46:105][  0]MapCheck: New page: Map Check
+[2014.04.24-08.13.46:105][  0]LightingResults: New page: Lighting Build
+[2014.04.24-08.13.46:400][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAED1AECA0
+[2014.04.24-08.13.46:502][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.24-08.13.46:503][  0]Cmd: MAP CHECKDEP
+[2014.04.24-08.13.46:503][  0]MapCheck: New page: Minimal_Default - Apr 24, 2014, 2:13:46 PM
+[2014.04.24-08.13.46:546][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [43.132ms] ==========
+[2014.04.24-08.13.46:546][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.451
+[2014.04.24-08.13.46:623][  0]LogCollectionManager: Loaded 0 collections in 0.002258 seconds
+[2014.04.24-08.13.46:781][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.04.24-08.13.46:782][  0]Cmd: MODE PLACEMENT
+[2014.04.24-08.13.46:858][  0]LogLoad: Full Startup: 11.31 seconds (BP compile: 0.10 seconds)
+[2014.04.24-08.13.46:871][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.04.24-08.13.46:927][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.04.24-08.13.47:066][  1]LogRenderer:Warning: Reallocating scene render targets to support 600x608.
+[2014.04.24-08.13.47:083][  1]LogAssetRegistry: Asset discovery search completed in 1.478040 seconds
+[2014.04.24-08.13.47:335][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>017E190628EE9D9E</RequestId><HostId>8SMskaGbltOAk1M56FK1h4k969rNebLq+5PHmiDcbzAhpraWrXzzZfeELt3vt5vm</HostId></Error>
+[2014.04.24-08.13.47:522][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>85EE4EF5869CEF2D</RequestId><HostId>WooXu7hZDR6Z396tLJ8U1qMAIlzVODFhJYjrDamPwGkuBYHq2q/XVkrGzHR28Q0k</HostId></Error>
+[2014.04.24-08.13.47:796][ 15]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>DB7F3938AC122FC1</RequestId><HostId>F8dec0gXo9DcFIxcsZ8EGvdl/crYumslNd4vEvC09hky3JyAf36snNrMnDu+f2Ps</HostId></Error>
+[2014.04.24-12.22.29:227][723]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.04.24-12.22.29:253][723]Cmd: MAP LOAD FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/MyTest.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.04.24-12.22.29:253][723]LightingResults: New page: Lighting Build
+[2014.04.24-12.22.29:258][723]LoadErrors: New page: Loading map: MyTest.umap
+[2014.04.24-12.22.29:258][723]MapCheck: New page: Map Check
+[2014.04.24-12.22.29:259][723]LightingResults: New page: Lighting Build
+[2014.04.24-12.22.29:275][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAEDE92340
+[2014.04.24-12.22.29:315][723]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'ReadyForRemoteControl' for  Ready for Remote Control 
+[2014.04.24-12.22.29:317][723]LogBlueprint:Warning: [compiler] Warning [4933.77] Compile of MyCharackter successful, but with 1 Warning(s) [in 5 ms]
+[2014.04.24-12.22.29:321][723]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'ReadyForRemoteControl' for  Ready for Remote Control 
+[2014.04.24-12.22.29:323][723]LogBlueprint:Warning: [compiler] Warning [4933.78] Compile of MyCharackter successful, but with 1 Warning(s) [in 5 ms]
+[2014.04.24-12.22.29:496][723]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.04.24-12.22.29:520][723]Cmd: MAP CHECKDEP
+[2014.04.24-12.22.29:520][723]MapCheck: New page: MyTest - Apr 24, 2014, 6:22:29 PM
+[2014.04.24-12.22.29:655][723]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [134.936ms] ==========
+[2014.04.24-12.22.29:655][723]LogFileHelpers: Loading map 'MyTest' took 0.402
+[2014.04.24-12.25.06:210][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:210][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:210][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:210][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:211][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:212][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.06:213][615]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-12.25.42:869][ 36]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.04.24-12.25.42:869][ 36]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.04.24-12.25.42:869][ 36]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.04.24-12.25.42:869][ 36]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_MacroInstance_6757.EdGraphPin_57725) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_VariableGet_2211.EdGraphPin_40553).  Import failed...
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_6757.EdGraphPin_57725"''
+[2014.04.24-12.25.42:870][ 36]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_298720 or K2Node_CallFunction /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_298720
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_298720.EdGraphPin_38936) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_VariableGet_2211.EdGraphPin_40553).  Import failed...
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_298720.EdGraphPin_38936"''
+[2014.04.24-12.25.42:870][ 36]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_298766 or K2Node_CallFunction /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_298766
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_298766.EdGraphPin_38938) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_VariableGet_2211.EdGraphPin_40553).  Import failed...
+[2014.04.24-12.25.42:870][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_298766.EdGraphPin_38938"''
+[2014.04.24-12.25.42:871][ 36]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_297775 or K2Node_CallFunction /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_297775
+[2014.04.24-12.25.42:871][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_297775.EdGraphPin_38905) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_298720.EdGraphPin_38937).  Import failed...
+[2014.04.24-12.25.42:871][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_297775.EdGraphPin_38905"''
+[2014.04.24-12.25.42:871][ 36]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_297775 or K2Node_CallFunction /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_297775
+[2014.04.24-12.25.42:871][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_297775.EdGraphPin_38906) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_298766.EdGraphPin_38939).  Import failed...
+[2014.04.24-12.25.42:871][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_297775.EdGraphPin_38906"''
+[2014.04.24-12.25.42:873][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_CallFunction_14576.EdGraphPin_5601) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_297775.EdGraphPin_38902).  Import failed...
+[2014.04.24-12.25.42:873][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_14576.EdGraphPin_5601"''
+[2014.04.24-12.25.42:873][ 36]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Maps/MyTest.MyTest:PersistentLevel.Untitled.EventGraph.K2Node_MacroInstance_6757.EdGraphPin_57726) from referencer (EdGraphPin /Game/Blueprints/MyProjectile.MyProjectile:EventGraph.K2Node_CallFunction_297775.EdGraphPin_38901).  Import failed...
+[2014.04.24-12.25.42:873][ 36]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_MacroInstance_6757.EdGraphPin_57726"''
+[2014.04.24-12.25.42:873][ 36]LogBlueprint:Warning: [MyProjectile] CreatePinForVariable: 'Missle' variable not found. Base class was probably changed.
+[2014.04.24-12.26.01:598][744]BlueprintLog: New page: Compile Untitled
+[2014.04.24-12.26.01:676][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.04.24-12.26.01:676][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.04.24-12.26.01:905][744]BlueprintEditorCompileResults: Info [5146.09] Compile of Untitled successful! [in 16 ms]
+[2014.04.24-12.26.04:305][822]BlueprintLog: New page: Compile MyProjectile
+[2014.04.24-12.26.04:539][822]BlueprintEditorCompileResults: Info [5148.78] Compile of MyProjectile successful! [in 18 ms]
+[2014.04.24-12.26.06:960][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.04.24-12.26.09:287][983]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.04.24-12.26.09:298][983]LogPlayLevel: [PIE] Compiling MyCharackter before PIE...
+[2014.04.24-12.26.09:306][983]LogBlueprint:Warning: [compiler] Warning Unable to find function with name 'ReadyForRemoteControl' for  Ready for Remote Control 
+[2014.04.24-12.26.09:308][983]LogBlueprint:Warning: [compiler] Warning [5153.76] Compile of MyCharackter successful, but with 1 Warning(s) [in 5 ms]
+[2014.04.24-12.26.09:539][983]LogPlayLevel: [PIE] Compiling Untitled before PIE...
+[2014.04.24-12.26.09:766][983]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.04.24-12.26.09:798][983]LogPlayLevel: PIE:  Blueprint regeneration took 511 ms (2 blueprints)
+[2014.04.24-12.26.09:798][983]PIE: New page: PIE session: MyTest (Apr 24, 2014, 6:26:09 PM)
+[2014.04.24-12.26.09:806][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007932s)
+[2014.04.24-12.26.09:807][983]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2014.04.24-12.26.09:807][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyTest.MyTest to /Game/Maps/UEDPIE_0_MyTest.MyTest (0.009424s)
+[2014.04.24-12.26.09:807][983]LogWorld: Game class is 'AntiGameMode_C'
+[2014.04.24-12.26.09:848][983]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyTest.MyTest up for play (max tick rate 0) at 2014.04.24-15.26.09
+[2014.04.24-12.26.09:848][983]LogWorld: Bringing up level for play took: 0.001301
+[2014.04.24-12.26.09:849][983]LogPlayerController: ClientRestart_Implementation MyCharackter_C_0
+[2014.04.24-12.26.09:849][983]LogPlayerController: ServerAcknowledgePossession_Implementation MyCharackter_C_0
+[2014.04.24-12.26.09:850][983]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_MyTest 0.598
+[2014.04.24-12.26.18:646][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAEE47FD80
+[2014.04.24-12.26.27:837][660]LogRenderer:Warning: Reallocating scene render targets to support 600x656.
+[2014.04.24-12.32.37:099][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_3) Not registered. Aborting.
+[2014.04.24-12.32.37:099][320]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.04.24-12.32.37:527][320]LogSavePackage: Save=312.485779ms
+[2014.04.24-12.32.37:527][320]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto1CB07D6874231725ADC2F1EBB049AA23D.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto1.umap'
+[2014.04.24-12.32.37:535][320]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.437
+[2014.04.24-12.32.37:535][320]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.437
+[2014.04.24-12.42.38:230][132]LogSavePackage: Save=293.874146ms
+[2014.04.24-12.42.38:230][132]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto25107BE994E4EE47BDBADCB8D795099F7.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto2.umap'
+[2014.04.24-12.42.38:238][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.409
+[2014.04.24-12.42.38:238][132]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.409
+[2014.04.24-12.52.38:876][824]LogSavePackage: Save=272.760162ms
+[2014.04.24-12.52.38:876][824]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto3CEB0703C45E08E1B2DAE1C8918B60DBC.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto3.umap'
+[2014.04.24-12.52.38:884][824]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.399
+[2014.04.24-12.52.38:884][824]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.399
+[2014.04.24-13.00.57:729][261]BlueprintLog: New page: Compile Untitled
+[2014.04.24-13.00.57:821][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_4) Not registered. Aborting.
+[2014.04.24-13.00.57:821][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.04.24-13.00.58:061][261]BlueprintEditorCompileResults: Info [7242.23] Compile of Untitled successful! [in 21 ms]
+[2014.04.24-13.02.39:529][260]LogSavePackage: Save=304.748199ms
+[2014.04.24-13.02.39:529][260]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto47ADA702343764103ACE03C9C59D8EB6B.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto4.umap'
+[2014.04.24-13.02.39:537][260]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.425
+[2014.04.24-13.02.39:537][260]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.425
+[2014.04.24-13.12.40:170][994]LogSavePackage: Save=300.821747ms
+[2014.04.24-13.12.40:170][994]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto594CAC8D948832A3B0F76FB929C65740D.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto5.umap'
+[2014.04.24-13.12.40:178][994]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.424
+[2014.04.24-13.12.40:178][994]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.424
+[2014.04.24-13.22.40:876][790]LogSavePackage: Save=326.354218ms
+[2014.04.24-13.22.40:876][790]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto69BF8D0254B1A868025325EA5AA250F5B.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto6.umap'
+[2014.04.24-13.22.40:884][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.456
+[2014.04.24-13.22.40:884][790]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.456
+[2014.04.24-13.32.41:609][549]LogSavePackage: Save=338.110626ms
+[2014.04.24-13.32.41:609][549]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto763C193FA46C55A0C9C2F26BEDB0AD726.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto7.umap'
+[2014.04.24-13.32.41:617][549]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.468
+[2014.04.24-13.32.41:617][549]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.468
+[2014.04.24-13.42.42:374][832]LogSavePackage: Save=339.418091ms
+[2014.04.24-13.42.42:374][832]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto8467B7C0B43926E7FD53906B17FC448C1.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto8.umap'
+[2014.04.24-13.42.42:381][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.472
+[2014.04.24-13.42.42:381][832]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.472
+[2014.04.24-13.52.43:106][229]LogSavePackage: Save=334.832275ms
+[2014.04.24-13.52.43:106][229]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto96D3BCA324AE2600306D81393EBE12714.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto9.umap'
+[2014.04.24-13.52.43:114][229]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.465
+[2014.04.24-13.52.43:114][229]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.465
+[2014.04.24-14.02.43:866][441]LogSavePackage: Save=343.723999ms
+[2014.04.24-14.02.43:866][441]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto0D2C11E504DAE4A4EDCC4FA8787510794.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto0.umap'
+[2014.04.24-14.02.43:873][441]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.470
+[2014.04.24-14.02.43:873][441]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.470
+[2014.04.24-14.12.44:615][471]LogSavePackage: Save=319.786682ms
+[2014.04.24-14.12.44:615][471]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto1EB3588664F2FF5A72ECD82B1B8F5225A.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto1.umap'
+[2014.04.24-14.12.44:622][471]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.440
+[2014.04.24-14.12.44:622][471]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.440
+[2014.04.24-14.15.50:375][498]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.15.50:375][498]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.21.39:434][ 83]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.21.39:434][ 83]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.21.39:434][ 83]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.21.39:435][ 83]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.22.30:905][870]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.22.30:906][870]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.22.44:961][380]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.04.24-14.22.54:320][685]LogSavePackage: Save=269.716949ms
+[2014.04.24-14.22.54:320][685]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto2495BD67D47DEEDF7508272BB86F1AC55.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto2.umap'
+[2014.04.24-14.22.54:327][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.393
+[2014.04.24-14.22.54:327][685]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.393
+[2014.04.24-14.32.54:969][ 97]LogSavePackage: Save=284.959106ms
+[2014.04.24-14.32.54:969][ 97]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto36E352D674087E24F759B44BF4913E239.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto3.umap'
+[2014.04.24-14.32.54:978][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.406
+[2014.04.24-14.32.54:978][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.406
+[2014.04.24-14.42.55:608][237]LogSavePackage: Save=282.998535ms
+[2014.04.24-14.42.55:608][237]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTest_Auto489C364CD45C778D8548A89B891C51F98.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved/Autosaves/Game/Maps/MyTest_Auto4.umap'
+[2014.04.24-14.42.55:615][237]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/MyTest' took 0.400
+[2014.04.24-14.42.55:615][237]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.400
+[2014.04.24-14.52.34:388][669]LogSavePackage: Save=278.609589ms
+[2014.04.24-14.52.34:388][669]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyTestA3251F0742995AA7306065A76E249C97.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Maps/MyTest.umap'
+[2014.04.24-14.52.34:417][669]LogFileHelpers: Saving map 'MyTest' took 0.509
+[2014.04.24-14.52.34:484][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyProjectile" FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Blueprints/MyProjectile.uasset" SILENT=true
+[2014.04.24-14.52.34:732][669]LogSavePackage: Save=204.791321ms
+[2014.04.24-14.52.34:732][669]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyProjectileC0EEF18748BEED01DAFD3F9E284B5236.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Blueprints/MyProjectile.uasset'
+[2014.04.24-14.52.34:757][669]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharackter" FILE="C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharackter.uasset" SILENT=true
+[2014.04.24-14.52.34:893][669]LogSavePackage: Save=86.404739ms
+[2014.04.24-14.52.34:893][669]LogSavePackage: Moving 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Saved//MyCharackter9C55619943BA84DC8934FB9011A2D357.tmp' to 'C:/Users/v.boshchuk/Documents/Unreal Projects/MyProject/Content/Blueprints/MyCharackter.uasset'
+[2014.04.24-14.52.38:308][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_5) Not registered. Aborting.
+[2014.04.24-14.52.38:308][775]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.04.24-14.52.38:333][775]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAE2657D80
+[2014.04.24-14.52.38:645][776]Cmd: QUIT_EDITOR
+[2014.04.24-14.52.38:698][776]LogExit: Preparing to exit.
+[2014.04.24-14.52.39:498][776]LogExit: Editor shut down
+[2014.04.24-14.52.39:498][776]LogExit: Transaction tracking system shut down
+[2014.04.24-14.52.39:499][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAEDBCFD80
+[2014.04.24-14.52.39:499][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DAE3D24540
+[2014.04.24-14.52.39:520][776]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000DA80B934C0
+[2014.04.24-14.52.39:520][776]LogExit: Object subsystem successfully closed.
+[2014.04.24-14.52.39:524][776]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2861) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2014.04.24-14.52.39:525][776]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2861) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2014.04.24-14.52.39:526][776]LogPhysics:Warning: PHYSX: ..\..\PhysX\src\NpScene.cpp (2861) 8 : PxScene::unlockWrite() called without matching call to PxScene::lockWrite(), behaviour will be undefined.
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module DesktopPlatform (142)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module HTTP (141)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module CrashTracker (140)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module SceneOutliner (139)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module EditorWidgets (138)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module CollectionManager (137)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module StatsViewer (136)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module FoliageEdit (135)
+[2014.04.24-14.52.39:555][776]LogModuleManager: Shutting down and abandoning module LandscapeEditor (134)
+[2014.04.24-14.52.39:558][776]LogModuleManager: Shutting down and abandoning module MeshPaint (133)
+[2014.04.24-14.52.39:558][776]LogModuleManager: Shutting down and abandoning module GeometryMode (132)
+[2014.04.24-14.52.39:558][776]LogModuleManager: Shutting down and abandoning module TextureAlignMode (131)
+[2014.04.24-14.52.39:558][776]LogModuleManager: Shutting down and abandoning module BspMode (130)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module PlacementMode (129)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module AutomationWorker (128)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module ViewportSnapping (127)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (126)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module UserFeedback (125)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module XmlParser (124)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (123)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module Blutility (122)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (121)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (120)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (117)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module InputBindingEditor (116)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (115)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module SettingsEditor (114)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module SessionLauncher (113)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module SessionFrontend (112)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module ProfilerClient (111)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (110)
+[2014.04.24-14.52.39:559][776]LogModuleManager: Shutting down and abandoning module DeviceManager (109)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module AutomationController (108)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module AutomationWindow (107)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module Layers (106)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (105)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module DetailCustomizations (104)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module PreferencesEditor (103)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module PackagesDialog (102)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (101)
+[2014.04.24-14.52.39:560][776]LogModuleManager: Shutting down and abandoning module AssetRegistry (100)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module Persona (99)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module GraphEditor (98)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module ClassViewer (96)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module Toolbox (95)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module ModuleUI (94)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module Sequencer (93)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module AssetTools (92)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module MovieSceneTools (91)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module OutputLog (90)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module GammaUI (89)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module Documentation (88)
+[2014.04.24-14.52.39:566][776]LogModuleManager: Shutting down and abandoning module ProfilerService (87)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module TaskGraph (86)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (85)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module Matinee (84)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module Kismet (83)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.04.24-14.52.39:601][776]LogModuleManager: Shutting down and abandoning module MainFrame (81)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module SourceControl (80)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module ImageWrapper (79)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module FunctionalTesting (78)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (77)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (76)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module MessageLog (75)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2014.04.24-14.52.39:602][776]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module SessionServices (72)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module VSAccessor (71)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (70)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module XAudio2 (69)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module Core (67)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module KismetCompiler (66)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module PhysXFormats (65)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module MeshUtilities (64)
+[2014.04.24-14.52.39:603][776]LogModuleManager: Shutting down and abandoning module DerivedDataCache (63)
+[2014.04.24-14.52.39:660][776]LogDerivedDataCache: Shutdown
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (62)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (61)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (57)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (56)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module Messaging (55)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (54)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module PropertyEditor (53)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (52)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (51)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (50)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (49)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module TargetPlatform (48)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module InputCore (46)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module Settings (45)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module TextureCompressor (42)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module ShaderCore (41)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module OpenGLDrv (40)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module D3D11RHI (39)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (38)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module Renderer (37)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module Engine (36)
+[2014.04.24-14.52.39:660][776]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (35)
+[2014.04.24-14.52.39:662][776]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (30)
+[2014.04.24-14.52.39:662][776]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (29)
+[2014.04.24-14.52.39:662][776]LogModuleManager: Shutting down and abandoning module CableComponent (28)
+[2014.04.24-14.52.39:662][776]LogModuleManager: Shutting down and abandoning module OculusRift (25)
+[2014.04.24-14.52.39:662][776]LogModuleManager: Shutting down and abandoning module UdpMessaging (24)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module MessagingDebugger (23)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module PluginsEditor (12)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module IntroTutorials (11)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module EpicSurvey (10)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.04.24-14.52.39:762][776]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.04.24-14.52.39:763][776]LogExit: Exiting.
+[2014.04.24-14.52.39:763][776]Log file closed, 04/24/14 17:52:39
